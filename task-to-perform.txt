@@ -1,0 +1,9 @@
+Preparation
+Choose machine learning method, model and architecture suitable to your problem
+Choose and describe at least 5 methods to evaluate the efficiency of the model. Required metrics: Loss, Accuracy, F-score, ROC, Confusion matrix
+
+
+Train the model [10 points]
+Perform training and validation of the chosen model using their corresponding datasets
+Calculate and plot all metrics for the whole training (i.e. after every epoch of training). Training should run for at least 10 epochs
+Relying on validation results, choose and save few 'best' models as MODELS_BASELINE. Remember that you shall not use the test set here.
