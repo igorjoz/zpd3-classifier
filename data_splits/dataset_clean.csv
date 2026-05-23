@@ -1,0 +1,1822 @@
+task_id,image,label,label_index,object_ids,leakage_group,annotator_count,split
+18,images/1-2-20260408_193628.jpg,pot,4,M1,M1,3,validation
+19,images/1-2-20260408_193652.jpg,pot,4,M1,M1,3,validation
+20,images/1-20260408_154808.jpg,pot,4,M2,M2,3,train
+21,images/1-20260408_154821.jpg,pot,4,M2,M2,3,train
+22,images/1-20260408_193527.jpg,pot,4,M2,M2,3,train
+23,images/1-20260408_193532.jpg,pot,4,M2,M2,3,train
+24,images/1-20260409_093456.jpg,pot,4,M2,M2,3,train
+25,images/1-20260409_093501.jpg,pot,4,M2,M2,3,train
+26,images/1-20260413_203009.jpg,pot,4,M2,M2,3,train
+27,images/10-11-12-20260411_155940.jpg,pot,4,M3,M3,3,test
+28,images/10-11-12-20260411_155945.jpg,pot,4,M3,M3,3,test
+29,images/10-11-12-20260411_160000.jpg,pot,4,M3,M3,3,test
+30,images/10-12-13-20260411_160110.jpg,pot,4,M4,M4,3,validation
+31,images/10-12-13-20260411_160117.jpg,pot,4,M4,M4,3,validation
+32,images/10-12-13-20260411_160135.jpg,pot,4,M4,M4,3,validation
+33,images/10-13-20260411_160021.jpg,pot,4,M5,M5,3,train
+34,images/10-13-20260411_160027.jpg,pot,4,M5,M5,3,train
+35,images/10-13-20260411_160035.jpg,pot,4,M5,M5,3,train
+36,images/10-20260411_154459.jpg,pot,4,M2,M2,3,train
+37,images/10-20260411_154505.jpg,pot,4,M2,M2,3,train
+38,images/10-20260411_154516.jpg,pot,4,M2,M2,3,train
+39,images/10-20260411_154623.jpg,pot,4,M2,M2,3,train
+40,images/10-20260411_154626.jpg,pot,4,M2,M2,3,train
+41,images/10-20260411_154632.jpg,pot,4,M2,M2,3,train
+42,images/10-20260411_154759.jpg,pot,4,M2,M2,3,train
+43,images/10-20260411_154807.jpg,pot,4,M2,M2,3,train
+44,images/10-20260411_154823.jpg,pot,4,M2,M2,3,train
+45,images/11-12-20260411_155917.jpg,pot,4,M6,M6,3,train
+46,images/11-12-20260411_155920.jpg,pot,4,M6,M6,3,train
+47,images/11-12-20260411_155930.jpg,pot,4,M6,M6,3,train
+48,images/11-20260411_154917.jpg,pot,4,M7,M7,3,train
+49,images/11-20260411_154937.jpg,pot,4,M7,M7,3,train
+50,images/11-20260411_155016.jpg,pot,4,M7,M7,3,train
+51,images/11-20260411_155020.jpg,pot,4,M7,M7,3,train
+52,images/11-20260411_155024.jpg,pot,4,M7,M7,3,train
+53,images/11-20260411_155030.jpg,pot,4,M7,M7,3,train
+54,images/11-20260411_155051.jpg,pot,4,M7,M7,3,train
+55,images/11-20260411_155055.jpg,pot,4,M7,M7,3,train
+56,images/11-20260411_155107.jpg,pot,4,M7,M7,3,train
+57,images/12-20260411_155138.jpg,pot,4,M7,M7,3,train
+58,images/12-20260411_155143.jpg,pot,4,M7,M7,3,train
+59,images/12-20260411_155152.jpg,pot,4,M7,M7,3,train
+60,images/12-20260411_155211.jpg,pot,4,M7,M7,3,train
+61,images/12-20260411_155215.jpg,pot,4,M7,M7,3,train
+62,images/12-20260411_155221.jpg,pot,4,M7,M7,3,train
+63,images/12-20260411_155243.jpg,pot,4,M7,M7,3,train
+64,images/12-20260411_155250.jpg,pot,4,M7,M7,3,train
+65,images/12-20260411_155303.jpg,pot,4,M7,M7,3,train
+66,images/13-20260411_155606.jpg,pot,4,M8,M8,3,train
+67,images/13-20260411_155624.jpg,pot,4,M8,M8,3,train
+68,images/13-20260411_155649.jpg,pot,4,M8,M8,3,train
+69,images/13-20260411_155702.jpg,pot,4,M8,M8,3,train
+70,images/13-20260411_155712.jpg,pot,4,M8,M8,3,train
+71,images/13-20260411_155724.jpg,pot,4,M8,M8,3,train
+72,images/13-20260411_155800.jpg,pot,4,M8,M8,3,train
+73,images/13-20260411_155811.jpg,pot,4,M8,M8,3,train
+74,images/13-20260411_155824.jpg,pot,4,M8,M8,3,train
+75,images/14-15-16-17-18-19-20-21-22-23-20260412_162857.jpg,wine_glass,5,M9,M9,3,test
+76,images/14-15-16-17-18-19-20-21-22-23-20260412_162905.jpg,wine_glass,5,M9,M9,3,test
+77,images/14-18-19-20-20260412_162804.jpg,wine_glass,5,M10,M10,3,train
+78,images/14-18-19-20-20260412_162809.jpg,wine_glass,5,M10,M10,3,train
+79,images/14-20260412_161507.jpg,wine_glass,5,M11,M11,3,train
+80,images/14-20260412_161511.jpg,wine_glass,5,M11,M11,3,train
+81,images/14-20260412_161537.jpg,wine_glass,5,M11,M11,3,train
+82,images/14-20260412_161541.jpg,wine_glass,5,M11,M11,3,train
+83,images/14-20260412_161603.jpg,wine_glass,5,M11,M11,3,train
+84,images/14-20260412_161607.jpg,wine_glass,5,M11,M11,3,train
+85,images/15-20260412_161619.jpg,wine_glass,5,M12,M12,3,train
+86,images/15-20260412_161623.jpg,wine_glass,5,M12,M12,3,train
+87,images/15-20260412_161633.jpg,wine_glass,5,M12,M12,3,train
+88,images/15-20260412_161636.jpg,wine_glass,5,M12,M12,3,train
+89,images/15-20260412_161655.jpg,wine_glass,5,M12,M12,3,train
+90,images/15-20260412_161659.jpg,wine_glass,5,M12,M12,3,train
+91,images/15-21-23-20260412_162655.jpg,wine_glass,5,M13,M13,3,validation
+93,images/16-18-19-20260412_162826.jpg,wine_glass,5,M14,M14,3,test
+94,images/16-18-19-20260412_162831.jpg,wine_glass,5,M14,M14,3,test
+95,images/16-19-20260412_162842.jpg,wine_glass,5,M15,M15,3,validation
+96,images/16-19-20260412_162846.jpg,wine_glass,5,M15,M15,3,validation
+97,images/16-20260412_161714.jpg,wine_glass,5,M16,M16,3,train
+98,images/16-20260412_161717.jpg,wine_glass,5,M16,M16,3,train
+99,images/16-20260412_161725.jpg,wine_glass,5,M16,M16,3,train
+100,images/16-20260412_161729.jpg,wine_glass,5,M16,M16,3,train
+101,images/16-20260412_161754.jpg,wine_glass,5,M16,M16,3,train
+102,images/16-20260412_161757.jpg,wine_glass,5,M16,M16,3,train
+103,images/17-18-19-20-20260412_162749.jpg,wine_glass,5,M17,M17,3,test
+104,images/17-18-19-20-20260412_162753.jpg,wine_glass,5,M17,M17,3,test
+105,images/17-18-20-20260412_162732.jpg,wine_glass,5,M18,M18,3,train
+106,images/17-18-20-20260412_162735.jpg,wine_glass,5,M18,M18,3,train
+107,images/17-20260412_161812.jpg,wine_glass,5,M19,M19,3,train
+108,images/17-20260412_161817.jpg,wine_glass,5,M19,M19,3,train
+109,images/17-20260412_161828.jpg,wine_glass,5,M19,M19,3,train
+110,images/17-20260412_161832.jpg,wine_glass,5,M19,M19,3,train
+111,images/17-20260412_161858.jpg,wine_glass,5,M19,M19,3,train
+112,images/17-20260412_161901.jpg,wine_glass,5,M19,M19,3,train
+113,images/18-20260412_161913.jpg,wine_glass,5,M20,M20,3,train
+114,images/18-20260412_161916.jpg,wine_glass,5,M20,M20,3,train
+115,images/18-20260412_161925.jpg,wine_glass,5,M20,M20,3,train
+116,images/18-20260412_161937.jpg,wine_glass,5,M20,M20,3,train
+117,images/18-20260412_162009.jpg,wine_glass,5,M20,M20,3,train
+118,images/18-20260412_162013.jpg,wine_glass,5,M20,M20,3,train
+119,images/19-20260412_162121.jpg,wine_glass,5,M21,M21,3,train
+120,images/19-20260412_162126.jpg,wine_glass,5,M21,M21,3,train
+121,images/19-20260412_162146.jpg,wine_glass,5,M21,M21,3,train
+122,images/19-20260412_162149.jpg,wine_glass,5,M21,M21,3,train
+123,images/19-20260412_162200.jpg,wine_glass,5,M21,M21,3,train
+124,images/19-20260412_162203.jpg,wine_glass,5,M21,M21,3,train
+125,images/2-20260408_193711.jpg,pot,4,M22,M22,3,validation
+126,images/2-20260408_193720.jpg,pot,4,M22,M22,3,validation
+127,images/2-20260408_193737.jpg,pot,4,M22,M22,3,validation
+128,images/2-20260408_193748.jpg,pot,4,M22,M22,3,validation
+129,images/20-20260412_162217.jpg,wine_glass,5,M23,M23,3,train
+130,images/20-20260412_162220.jpg,wine_glass,5,M23,M23,3,train
+131,images/20-20260412_162228.jpg,wine_glass,5,M23,M23,3,train
+132,images/20-20260412_162231.jpg,wine_glass,5,M23,M23,3,train
+133,images/20-20260412_162247.jpg,wine_glass,5,M23,M23,3,train
+134,images/20-20260412_162251.jpg,wine_glass,5,M23,M23,3,train
+135,images/20-21-20260412_162715.jpg,wine_glass,5,M24,M24,3,validation
+136,images/20-21-20260412_162719.jpg,wine_glass,5,M24,M24,3,validation
+137,images/20260417_202218.jpg,bowl,3,M25,M25,3,train
+138,images/20260417_202225.jpg,bowl,3,M25,M25,3,train
+139,images/20260417_202231.jpg,bowl,3,M25,M25,3,train
+140,images/20260417_202242.jpg,bowl,3,M25,M25,3,train
+141,images/20260417_202314.jpg,bowl,3,M25,M25,3,train
+142,images/20260417_202317.jpg,bowl,3,M25,M25,3,train
+143,images/20260417_202327.jpg,bowl,3,M25,M25,3,train
+144,images/20260417_202342.jpg,bowl,3,M25,M25,3,train
+145,images/20260417_202349.jpg,bowl,3,M25,M25,3,train
+146,images/20260417_202410.jpg,bowl,3,M26,M26,3,test
+147,images/20260417_202413.jpg,bowl,3,M26,M26,3,test
+148,images/20260417_202416.jpg,bowl,3,M26,M26,3,test
+149,images/20260417_202421.jpg,bowl,3,M26,M26,3,test
+150,images/20260417_202424.jpg,bowl,3,M26,M26,3,test
+151,images/20260417_202425.jpg,bowl,3,M26,M26,3,test
+152,images/20260417_202511.jpg,saucepan,6,M27,M27,3,train
+153,images/20260417_202518.jpg,saucepan,6,M27,M27,3,train
+154,images/20260417_202522.jpg,saucepan,6,M27,M27,3,train
+155,images/20260417_202531.jpg,saucepan,6,M27,M27,3,train
+156,images/20260417_202645.jpg,saucepan,6,M27,M27,3,train
+157,images/20260417_202646.jpg,saucepan,6,M27,M27,3,train
+158,images/20260417_202648.jpg,saucepan,6,M27,M27,3,train
+159,images/20260417_202809.jpg,saucepan,6,M27,M27,3,train
+160,images/20260417_202810.jpg,saucepan,6,M27,M27,3,train
+161,images/20260417_202815.jpg,saucepan,6,M27,M27,3,train
+162,images/20260417_202904.jpg,saucepan,6,M27,M27,3,train
+163,images/20260417_202906.jpg,saucepan,6,M27,M27,3,train
+164,images/20260417_202908.jpg,saucepan,6,M27,M27,3,train
+165,images/20260417_202912.jpg,saucepan,6,M27,M27,3,train
+166,images/20260417_203051.jpg,flat_plate,1,M28,M28,3,train
+167,images/20260417_203053.jpg,flat_plate,1,M28,M28,3,train
+168,images/20260417_203115.jpg,flat_plate,1,M28,M28,3,train
+169,images/20260417_203123.jpg,flat_plate,1,M28,M28,3,train
+170,images/20260417_203126.jpg,flat_plate,1,M28,M28,3,train
+171,images/20260417_203314.jpg,flat_plate,1,M28,M28,3,train
+172,images/20260417_203315.jpg,flat_plate,1,M28,M28,3,train
+173,images/20260417_203405.jpg,flat_plate,1,M29,M29,3,validation
+174,images/20260417_203407.jpg,flat_plate,1,M29,M29,3,validation
+175,images/20260417_203419.jpg,flat_plate,1,M29,M29,3,validation
+176,images/20260417_203420.jpg,flat_plate,1,M29,M29,3,validation
+177,images/20260417_203439.jpg,flat_plate,1,M30,M30,3,train
+178,images/20260417_203441.jpg,flat_plate,1,M30,M30,3,train
+179,images/20260417_203442.jpg,flat_plate,1,M30,M30,3,train
+180,images/20260417_203444.jpg,flat_plate,1,M30,M30,3,train
+181,images/20260417_203458.jpg,flat_plate,1,M31,M31,3,test
+182,images/20260417_203500.jpg,flat_plate,1,M31,M31,3,test
+183,images/20260417_203506.jpg,flat_plate,1,M32,M32,3,train
+184,images/20260417_203508.jpg,flat_plate,1,M32,M32,3,train
+185,images/20260417_203511.jpg,flat_plate,1,M32,M32,3,train
+186,images/20260417_203542.jpg,flat_plate,1,M33,M33,3,train
+187,images/20260417_203546.jpg,flat_plate,1,M33,M33,3,train
+188,images/20260417_203600.jpg,mug,0,M34,M34,3,test
+189,images/20260417_203603.jpg,mug,0,M34,M34,3,test
+190,images/20260417_203607.jpg,mug,0,M34,M34,3,test
+191,images/20260417_203611.jpg,mug,0,M34,M34,3,test
+192,images/20260417_203628.jpg,mug,0,M35,M35,3,test
+193,images/20260417_203631.jpg,mug,0,M35,M35,3,test
+194,images/20260417_203634.jpg,mug,0,M35,M35,3,test
+195,images/20260417_203637.jpg,mug,0,M36,M36,3,train
+196,images/20260417_203639.jpg,mug,0,M36,M36,3,train
+197,images/20260417_203642.jpg,mug,0,M36,M36,3,train
+198,images/20260417_203708.jpg,mug,0,M37,M37,3,validation
+199,images/20260417_203710.jpg,mug,0,M37,M37,3,validation
+200,images/20260417_203713.jpg,mug,0,M37,M37,3,validation
+201,images/20260417_203723.jpg,mug,0,M38,M38,3,test
+202,images/20260417_203724.jpg,mug,0,M38,M38,3,test
+203,images/20260417_203727.jpg,mug,0,M38,M38,3,test
+204,images/20260417_203730.jpg,mug,0,M38,M38,3,test
+205,images/20260417_203734.jpg,mug,0,M39,M39,3,train
+206,images/20260417_203736.jpg,mug,0,M39,M39,3,train
+207,images/20260417_203738.jpg,mug,0,M39,M39,3,train
+208,images/20260417_203746.jpg,mug,0,M40,M40,3,train
+209,images/20260417_203748.jpg,mug,0,M40,M40,3,train
+210,images/20260417_204047.jpg,mug,0,M41,M41,3,validation
+211,images/20260417_204049.jpg,mug,0,M41,M41,3,validation
+212,images/20260417_204234.jpg,pot,4,M42,M42,3,train
+213,images/20260417_204238.jpg,pot,4,M42,M42,3,train
+214,images/20260417_204244.jpg,pot,4,M42,M42,3,train
+215,images/20260417_204248.jpg,pot,4,M42,M42,3,train
+216,images/20260417_204251.jpg,pot,4,M42,M42,3,train
+217,images/20260417_204257.jpg,saucepan,6,M43,M43,3,test
+218,images/20260417_204258.jpg,saucepan,6,M43,M43,3,test
+219,images/20260417_204300.jpg,saucepan,6,M43,M43,3,test
+220,images/20260417_204303.jpg,saucepan,6,M43,M43,3,test
+221,images/20260417_204304.jpg,saucepan,6,M43,M43,3,test
+222,images/20260417_204318.jpg,pot,4,M44,M44,3,validation
+223,images/20260417_204319.jpg,pot,4,M44,M44,3,validation
+224,images/20260417_204321.jpg,pot,4,M44,M44,3,validation
+225,images/20260421_160101.jpg,bowl,3,M45,M45,3,train
+226,images/20260421_160105.jpg,bowl,3,M45,M45,3,train
+227,images/20260421_160110.jpg,bowl,3,M45,M45,3,train
+228,images/20260421_160120.jpg,bowl,3,M45,M45,3,train
+229,images/20260421_160124.jpg,bowl,3,M45,M45,3,train
+230,images/20260421_160150.jpg,bowl,3,M46,M46,3,validation
+231,images/20260421_160206.jpg,bowl,3,M46,M46,3,validation
+232,images/20260421_160212.jpg,bowl,3,M46,M46,3,validation
+233,images/20260421_160216.jpg,bowl,3,M46,M46,3,validation
+234,images/20260421_160228.jpg,bowl,3,M46,M46,3,validation
+235,images/20260421_160505.jpg,bowl,3,M47,M47,3,train
+236,images/20260421_160511.jpg,bowl,3,M47,M47,3,train
+237,images/20260421_160520.jpg,bowl,3,M47,M47,3,train
+238,images/20260421_160526.jpg,bowl,3,M47,M47,3,train
+239,images/20260421_160824.jpg,mug,0,M48,M48,3,train
+240,images/20260421_160828.jpg,mug,0,M48,M48,3,train
+241,images/20260421_160847.jpg,mug,0,M48,M48,3,train
+242,images/20260421_160852.jpg,mug,0,M48,M48,3,train
+243,images/20260421_160936.jpg,saucepan,6,M49,M49,3,train
+244,images/20260421_160940.jpg,saucepan,6,M49,M49,3,train
+245,images/20260421_160948.jpg,saucepan,6,M49,M49,3,train
+246,images/20260421_161010.jpg,bowl,3,M50,M50,3,test
+247,images/20260421_161016.jpg,bowl,3,M50,M50,3,test
+248,images/20260421_161019.jpg,bowl,3,M50,M50,3,test
+249,images/20260421_161040.jpg,pot,4,M51,M51,3,test
+250,images/20260421_161043.jpg,pot,4,M51,M51,3,test
+251,images/20260421_161049.jpg,pot,4,M51,M51,3,test
+252,images/20260421_161057.jpg,pot,4,M51,M51,3,test
+253,images/20260421_161218.jpg,mug,0,M52,M52,3,train
+254,images/20260421_161222.jpg,mug,0,M52,M52,3,train
+255,images/20260421_161227.jpg,mug,0,M52,M52,3,train
+256,images/20260421_161254.jpg,mug,0,M52,M52,3,train
+257,images/20260421_161257.jpg,mug,0,M52,M52,3,train
+258,images/20260421_161413.jpg,flat_plate,1,M53,M53,3,train
+259,images/20260421_161416.jpg,flat_plate,1,M53,M53,3,train
+260,images/20260421_161442.jpg,flat_plate,1,M53,M53,3,train
+261,images/20260421_161444.jpg,flat_plate,1,M53,M53,3,train
+262,images/20260421_161505.jpg,flat_plate,1,M53,M53,3,train
+263,images/20260421_161532.jpg,flat_plate,1,M53,M53,3,train
+264,images/20260421_161536.jpg,flat_plate,1,M53,M53,3,train
+265,images/20260421_161637.jpg,soup_plate,2,M54,M54,3,train
+266,images/20260421_161639.jpg,soup_plate,2,M54,M54,3,train
+267,images/20260421_161645.jpg,soup_plate,2,M54,M54,3,train
+268,images/20260421_161648.jpg,soup_plate,2,M54,M54,3,train
+269,images/20260421_161712.jpg,soup_plate,2,M55,M55,3,test
+270,images/20260421_161714.jpg,soup_plate,2,M55,M55,3,test
+271,images/20260421_161717.jpg,soup_plate,2,M55,M55,3,test
+272,images/20260421_161721.jpg,soup_plate,2,M55,M55,3,test
+273,images/20260421_161728.jpg,soup_plate,2,M55,M55,3,test
+274,images/20260421_161803.jpg,soup_plate,2,M56,M56,3,validation
+275,images/20260421_161804.jpg,soup_plate,2,M56,M56,3,validation
+276,images/20260421_161810.jpg,soup_plate,2,M56,M56,3,validation
+277,images/20260421_161811.jpg,soup_plate,2,M56,M56,3,validation
+278,images/20260421_161831.jpg,soup_plate,2,M57,M57,3,validation
+279,images/20260421_161833.jpg,soup_plate,2,M57,M57,3,validation
+280,images/20260421_161842.jpg,soup_plate,2,M58,M58,3,validation
+281,images/20260421_161844.jpg,soup_plate,2,M58,M58,3,validation
+282,images/20260421_161904.jpg,flat_plate,1,M59,M59,3,validation
+283,images/20260421_161906.jpg,flat_plate,1,M59,M59,3,validation
+284,images/20260421_161920.jpg,flat_plate,1,M60,M60,3,test
+285,images/20260421_161925.jpg,flat_plate,1,M60,M60,3,test
+286,images/20260421_161928.jpg,flat_plate,1,M60,M60,3,test
+287,images/20260421_161938.jpg,flat_plate,1,M61,M61,3,validation
+288,images/20260421_161949.jpg,flat_plate,1,M61,M61,3,validation
+289,images/20260421_161959.jpg,flat_plate,1,M61,M61,3,validation
+290,images/20260421_162031.jpg,flat_plate,1,M62,M62,3,train
+291,images/20260421_162034.jpg,flat_plate,1,M62,M62,3,train
+292,images/20260421_162044.jpg,flat_plate,1,M63,M63,3,test
+293,images/20260421_162047.jpg,flat_plate,1,M63,M63,3,test
+294,images/20260421_162510.jpg,pot,4,M64,M64,3,train
+295,images/20260421_162513.jpg,pot,4,M64,M64,3,train
+296,images/20260421_162520.jpg,pot,4,M64,M64,3,train
+297,images/20260421_162524.jpg,pot,4,M64,M64,3,train
+298,images/20260421_162529.jpg,pot,4,M64,M64,3,train
+299,images/20260421_162540_005.jpg,pot,4,M64,M64,3,train
+300,images/20260421_162542.jpg,pot,4,M64,M64,3,train
+301,images/20260421_162546.jpg,pot,4,M64,M64,3,train
+302,images/20260421_162549.jpg,pot,4,M64,M64,3,train
+303,images/20260421_162552.jpg,pot,4,M64,M64,3,train
+304,images/20260421_162559.jpg,pot,4,M64,M64,3,train
+305,images/20260421_162606.jpg,wine_glass,5,M65,M65,3,train
+306,images/20260421_162609.jpg,wine_glass,5,M65,M65,3,train
+307,images/20260421_162612.jpg,wine_glass,5,M65,M65,3,train
+308,images/20260421_162616.jpg,wine_glass,5,M65,M65,3,train
+309,images/20260421_162622.jpg,wine_glass,5,M65,M65,3,train
+310,images/20260421_162627.jpg,wine_glass,5,M65,M65,3,train
+311,images/20260421_162758.jpg,mug,0,M66,M66,3,train
+312,images/20260421_162801.jpg,mug,0,M66,M66,3,train
+313,images/20260421_162807.jpg,mug,0,M66,M66,3,train
+314,images/20260421_162809.jpg,mug,0,M66,M66,3,train
+315,images/20260421_162817.jpg,mug,0,M66,M66,3,train
+316,images/20260421_162820.jpg,mug,0,M66,M66,3,train
+317,images/20260421_162845.jpg,mug,0,M67,M67,3,train
+318,images/20260421_162905.jpg,mug,0,M67,M67,3,train
+319,images/20260421_162909.jpg,mug,0,M67,M67,3,train
+320,images/20260421_162917.jpg,mug,0,M67,M67,3,train
+321,images/20260421_163026.jpg,mug,0,M68,M68,3,test
+322,images/20260421_163032.jpg,mug,0,M68,M68,3,test
+323,images/20260421_163036.jpg,mug,0,M68,M68,3,test
+324,images/20260421_163233.jpg,mug,0,M69,M69,3,test
+325,images/20260421_163237.jpg,mug,0,M70,M70,3,validation
+326,images/20260421_163238.jpg,mug,0,M70,M70,3,validation
+327,images/20260421_163243.jpg,mug,0,M71,M71,3,validation
+328,images/20260421_163245.jpg,mug,0,M71,M71,3,validation
+329,images/20260421_163250.jpg,mug,0,M71,M71,3,validation
+330,images/20_04_2026 16_06_53.jpg,flat_plate,1,M72,M72,3,train
+331,images/20_04_2026 16_06_54 (2).jpg,flat_plate,1,M72,M72,3,train
+333,images/20_04_2026 16_06_54(10).jpg,soup_plate,2,M73,M73,3,validation
+334,images/20_04_2026 16_06_54(11).jpg,soup_plate,2,M73,M73,3,validation
+335,images/20_04_2026 16_06_54(12).jpg,soup_plate,2,M73,M73,3,validation
+336,images/20_04_2026 16_06_54(13).jpg,soup_plate,2,M73,M73,3,validation
+337,images/20_04_2026 16_06_54(14).jpg,soup_plate,2,M73,M73,3,validation
+338,images/20_04_2026 16_06_54(15).jpg,saucepan,6,M74,M74,3,train
+340,images/20_04_2026 16_06_54(17).jpg,saucepan,6,M74,M74,3,train
+341,images/20_04_2026 16_06_54(18).jpg,saucepan,6,M74,M74,3,train
+342,images/20_04_2026 16_06_54(19).jpg,saucepan,6,M74,M74,3,train
+343,images/20_04_2026 16_06_54(2).jpg,flat_plate,1,M72,M72,3,train
+344,images/20_04_2026 16_06_54(20).jpg,saucepan,6,M74,M74,3,train
+345,images/20_04_2026 16_06_54(21).jpg,soup_plate,2,M73,M73,3,validation
+346,images/20_04_2026 16_06_54(22).jpg,bowl,3,M75,M75,3,train
+347,images/20_04_2026 16_06_54(3).jpg,soup_plate,2,M73,M73,3,validation
+348,images/20_04_2026 16_06_54(4).jpg,saucepan,6,M74,M74,3,train
+349,images/20_04_2026 16_06_54(5).jpg,saucepan,6,M74,M74,3,train
+350,images/20_04_2026 16_06_54(6).jpg,saucepan,6,M74,M74,3,train
+351,images/20_04_2026 16_06_54(7).jpg,saucepan,6,M74,M74,3,train
+352,images/20_04_2026 16_06_54(8).jpg,saucepan,6,M74,M74,3,train
+353,images/20_04_2026 16_06_54(9).jpg,saucepan,6,M74,M74,3,train
+354,images/20_04_2026 16_06_54.jpg,flat_plate,1,M72,M72,3,train
+355,images/20_04_2026 16_06_55 (2).jpg,bowl,3,M75,M75,3,train
+356,images/20_04_2026 16_06_55(1).jpg,bowl,3,M75,M75,3,train
+357,images/20_04_2026 16_06_55(10).jpg,flat_plate,1,M72,M72,3,train
+358,images/20_04_2026 16_06_55(11).jpg,flat_plate,1,M72,M72,3,train
+359,images/20_04_2026 16_06_55(2).jpg,bowl,3,M75,M75,3,train
+360,images/20_04_2026 16_06_55(3).jpg,bowl,3,M75,M75,3,train
+361,images/20_04_2026 16_06_55(4).jpg,bowl,3,M75,M75,3,train
+362,images/20_04_2026 16_06_55(5).jpg,bowl,3,M75,M75,3,train
+363,images/20_04_2026 16_06_55(6).jpg,bowl,3,M75,M75,3,train
+364,images/20_04_2026 16_06_55(7).jpg,flat_plate,1,M72,M72,3,train
+365,images/20_04_2026 16_06_55(8).jpg,flat_plate,1,M72,M72,3,train
+366,images/20_04_2026 16_06_55(9).jpg,flat_plate,1,M72,M72,3,train
+367,images/20_04_2026 16_06_55.jpg,bowl,3,M75,M75,3,train
+368,images/20_04_2026 16_06_56(1).jpg,bowl,3,M76,M76,3,validation
+369,images/20_04_2026 16_06_56(10).jpg,mug,0,M77,M77,3,train
+371,images/20_04_2026 16_06_56(11).jpg,mug,0,M77,M77,3,train
+372,images/20_04_2026 16_06_56(12).jpg,mug,0,M77,M77,3,train
+373,images/20_04_2026 16_06_56(13).jpg,mug,0,M77,M77,3,train
+374,images/20_04_2026 16_06_56(2).jpg,bowl,3,M76,M76,3,validation
+375,images/20_04_2026 16_06_56(3).jpg,bowl,3,M76,M76,3,validation
+376,images/20_04_2026 16_06_56(4).jpg,bowl,3,M76,M76,3,validation
+377,images/20_04_2026 16_06_56(5).jpg,mug,0,M77,M77,3,train
+378,images/20_04_2026 16_06_56(6).jpg,mug,0,M77,M77,3,train
+379,images/20_04_2026 16_06_56(7).jpg,mug,0,M77,M77,3,train
+380,images/20_04_2026 16_06_56(8).jpg,mug,0,M77,M77,3,train
+381,images/20_04_2026 16_06_56(9).jpg,mug,0,M77,M77,3,train
+382,images/20_04_2026 16_06_56.jpg,flat_plate,1,M72,M72,3,train
+383,images/20_04_2026 16_06_57 (2).jpg,bowl,3,M78,M78,3,train
+384,images/20_04_2026 16_06_57(1).jpg,bowl,3,M78,M78,3,train
+385,images/20_04_2026 16_06_57(10).jpg,mug,0,M79,M79,3,train
+386,images/20_04_2026 16_06_57(11).jpg,mug,0,M79,M79,3,train
+387,images/20_04_2026 16_06_57(12).jpg,mug,0,M79,M79,3,train
+388,images/20_04_2026 16_06_57(2).jpg,bowl,3,M78,M78,3,train
+389,images/20_04_2026 16_06_57(3).jpg,bowl,3,M78,M78,3,train
+390,images/20_04_2026 16_06_57(4).jpg,bowl,3,M78,M78,3,train
+391,images/20_04_2026 16_06_57(5).jpg,bowl,3,M78,M78,3,train
+392,images/20_04_2026 16_06_57(6).jpg,bowl,3,M78,M78,3,train
+393,images/20_04_2026 16_06_57(7).jpg,mug,0,M79,M79,3,train
+394,images/20_04_2026 16_06_57(8).jpg,mug,0,M79,M79,3,train
+395,images/20_04_2026 16_06_57(9).jpg,mug,0,M79,M79,3,train
+396,images/20_04_2026 16_06_57.jpg,bowl,3,M78,M78,3,train
+397,images/20_04_2026 16_06_58 (2).jpg,mug,0,M79,M79,3,train
+398,images/20_04_2026 16_06_58(1).jpg,mug,0,M79,M79,3,train
+399,images/20_04_2026 16_06_58(10).jpg,pot,4,M80,M80,3,test
+400,images/20_04_2026 16_06_58(11).jpg,pot,4,M81,M81,3,test
+401,images/20_04_2026 16_06_58(12).jpg,pot,4,M81,M81,3,test
+404,images/20_04_2026 16_06_58(2).jpg,mug,0,M79,M79,3,train
+405,images/20_04_2026 16_06_58(3).jpg,pot,4,M80,M80,3,test
+406,images/20_04_2026 16_06_58(4).jpg,pot,4,M80,M80,3,test
+407,images/20_04_2026 16_06_58(5).jpg,pot,4,M84,M84,3,validation
+408,images/20_04_2026 16_06_58(6).jpg,pot,4,M84,M84,3,validation
+409,images/20_04_2026 16_06_58(7).jpg,pot,4,M84,M84,3,validation
+412,images/20_04_2026 16_06_58.jpg,mug,0,M79,M79,3,train
+413,images/20_04_2026 16_06_59 (2).jpg,pot,4,M85,M85,3,test
+414,images/20_04_2026 16_06_59(1).jpg,saucepan,6,M82,M82,3,validation
+415,images/20_04_2026 16_06_59(10).jpg,pot,4,M86,M86,3,train
+417,images/20_04_2026 16_06_59(12).jpg,pot,4,M86,M86,3,train
+422,images/20_04_2026 16_06_59(6).jpg,pot,4,M81,M81,3,test
+423,images/20_04_2026 16_06_59(7).jpg,pot,4,M86,M86,3,train
+427,images/20_04_2026 16_07_00 (2).jpg,pot,4,M88,M88,3,train
+428,images/20_04_2026 16_07_00(1).jpg,pot,4,M86,M86,3,train
+430,images/20_04_2026 16_07_00(11).jpg,pot,4,M86,M86,3,train
+431,images/20_04_2026 16_07_00(12).jpg,pot,4,M86,M86,3,train
+433,images/20_04_2026 16_07_00(14).jpg,flat_plate,1,M89,M89,3,validation
+434,images/20_04_2026 16_07_00(15).jpg,flat_plate,1,M89,M89,3,validation
+435,images/20_04_2026 16_07_00(2).jpg,pot,4,M86,M86,3,train
+436,images/20_04_2026 16_07_00(3).jpg,pot,4,M86,M86,3,train
+437,images/20_04_2026 16_07_00(4).jpg,pot,4,M86,M86,3,train
+438,images/20_04_2026 16_07_00(5).jpg,pot,4,M86,M86,3,train
+439,images/20_04_2026 16_07_00(6).jpg,pot,4,M86,M86,3,train
+440,images/20_04_2026 16_07_00(7).jpg,pot,4,M86,M86,3,train
+441,images/20_04_2026 16_07_00(8).jpg,pot,4,M86,M86,3,train
+442,images/20_04_2026 16_07_00(9).jpg,pot,4,M88,M88,3,train
+443,images/20_04_2026 16_07_00.jpg,pot,4,M88,M88,3,train
+444,images/20_04_2026 16_07_01 (2).jpg,mug,0,M90,M90,3,train
+445,images/20_04_2026 16_07_01(1).jpg,mug,0,M90,M90,3,train
+446,images/20_04_2026 16_07_01(2).jpg,mug,0,M90,M90,3,train
+447,images/20_04_2026 16_07_01(3).jpg,flat_plate,1,M72,M72,3,train
+448,images/20_04_2026 16_07_01(4).jpg,flat_plate,1,M72,M72,3,train
+449,images/20_04_2026 16_07_01(5).jpg,flat_plate,1,M72,M72,3,train
+450,images/20_04_2026 16_07_01(6).jpg,flat_plate,1,M72,M72,3,train
+451,images/20_04_2026 16_07_01(7).jpg,flat_plate,1,M72,M72,3,train
+452,images/20_04_2026 16_07_01(8).jpg,flat_plate,1,M89,M89,3,validation
+453,images/20_04_2026 16_07_01(9).jpg,flat_plate,1,M89,M89,3,validation
+454,images/20_04_2026 16_07_01.jpg,mug,0,M90,M90,3,train
+455,images/20_04_2026 16_07_02.jpg,flat_plate,1,M72,M72,3,train
+457,images/20_04_2026 16_08_43.jpg,saucepan,6,M91,M91,3,test
+458,images/20_04_2026 16_08_44 (2).jpg,mug,0,M92,M92,3,train
+459,images/20_04_2026 16_08_44(1).jpg,mug,0,M92,M92,3,train
+460,images/20_04_2026 16_08_44(2).jpg,mug,0,M92,M92,3,train
+461,images/20_04_2026 16_08_44(3).jpg,mug,0,M93,M93,3,train
+462,images/20_04_2026 16_08_44(4).jpg,mug,0,M93,M93,3,train
+463,images/20_04_2026 16_08_44(5).jpg,mug,0,M93,M93,3,train
+464,images/20_04_2026 16_08_44.jpg,mug,0,M92,M92,3,train
+465,images/20_04_2026 16_08_45 (2).jpg,flat_plate,1,M94,M94,3,validation
+466,images/20_04_2026 16_08_45(1).jpg,flat_plate,1,M95,M95,3,validation
+467,images/20_04_2026 16_08_45(2).jpg,flat_plate,1,M95,M95,3,validation
+468,images/20_04_2026 16_08_45(3).jpg,flat_plate,1,M96,M96,3,test
+469,images/20_04_2026 16_08_45(4).jpg,flat_plate,1,M94,M94,3,validation
+470,images/20_04_2026 16_08_45(5).jpg,bowl,3,M97,M97,3,validation
+471,images/20_04_2026 16_08_45(6).jpg,bowl,3,M98,M98,3,test
+472,images/20_04_2026 16_08_45(7).jpg,bowl,3,M97,M97,3,validation
+473,images/20_04_2026 16_08_45.jpg,flat_plate,1,M94,M94,3,validation
+474,images/20_04_2026 16_08_46 (2).jpg,bowl,3,M99,M99,3,test
+475,images/20_04_2026 16_08_46(1).jpg,bowl,3,M99,M99,3,test
+476,images/20_04_2026 16_08_46(2).jpg,soup_plate,2,M100,M100,3,validation
+477,images/20_04_2026 16_08_46(3).jpg,soup_plate,2,M101,M101,3,test
+478,images/20_04_2026 16_08_46(4).jpg,soup_plate,2,M102,M102,3,train
+479,images/20_04_2026 16_08_46(5).jpg,saucepan,6,M103,M103,3,train
+480,images/20_04_2026 16_08_46(6).jpg,saucepan,6,M103,M103,3,train
+484,images/20_04_2026 16_08_46.jpg,bowl,3,M99,M99,3,test
+493,images/20_04_2026 16_08_48(3).jpg,pot,4,M107,M107,3,test
+494,images/20_04_2026 16_08_48.jpg,pot,4,M107,M107,3,test
+496,images/20_04_2026 16_08_49(1).jpg,pot,4,M108,M108,3,test
+497,images/20_04_2026 16_08_49(2).jpg,saucepan,6,M109,M109,3,train
+498,images/20_04_2026 16_08_49(3).jpg,saucepan,6,M109,M109,3,train
+503,images/20_04_2026 16_08_50(3).jpg,saucepan,6,I1,I1,1,test
+504,images/20_04_2026 16_08_50(4).jpg,saucepan,6,I1,I1,1,test
+506,images/20_04_2026 16_08_50(6).jpg,pot,4,I2,I2,1,train
+507,images/20_04_2026 16_08_50(7).jpg,saucepan,6,I1,I1,1,test
+510,images/20_04_2026 16_08_51 (2).jpg,pot,4,I2,I2,1,train
+511,images/20_04_2026 16_08_51(1).jpg,saucepan,6,I1,I1,1,test
+512,images/20_04_2026 16_08_51(10).jpg,pot,4,I2,I2,1,train
+513,images/20_04_2026 16_08_51(11).jpg,pot,4,I2,I2,1,train
+515,images/20_04_2026 16_08_51(2).jpg,pot,4,I2,I2,1,train
+516,images/20_04_2026 16_08_51(3).jpg,pot,4,I2,I2,1,train
+520,images/20_04_2026 16_08_51(7).jpg,saucepan,6,I3,I3,1,test
+521,images/20_04_2026 16_08_51(8).jpg,saucepan,6,I3,I3,1,test
+525,images/20_04_2026 16_08_52(1).jpg,bowl,3,I5,I5,1,validation
+526,images/20_04_2026 16_08_52(10).jpg,bowl,3,I5,I5,1,validation
+528,images/20_04_2026 16_08_52(2).jpg,bowl,3,I5,I5,1,validation
+529,images/20_04_2026 16_08_52(3).jpg,bowl,3,I5,I5,1,validation
+530,images/20_04_2026 16_08_52(4).jpg,bowl,3,I6,I6,1,test
+532,images/20_04_2026 16_08_52(6).jpg,bowl,3,I7,I7,1,test
+533,images/20_04_2026 16_08_52(7).jpg,bowl,3,I8,I8,1,validation
+534,images/20_04_2026 16_08_52(8).jpg,bowl,3,I9,I9,1,test
+535,images/20_04_2026 16_08_52(9).jpg,bowl,3,I9,I9,1,test
+536,images/20_04_2026 16_08_52.jpg,saucepan,6,I10,I10,1,validation
+537,images/20_04_2026 16_08_53(1).jpg,soup_plate,2,I11,I11,1,test
+539,images/20_04_2026 16_08_53(2).jpg,saucepan,6,I12,I12,1,test
+540,images/20_04_2026 16_08_53(3).jpg,saucepan,6,I12,I12,1,test
+541,images/20_04_2026 16_08_53(4).jpg,soup_plate,2,I13,I13,1,train
+542,images/20_04_2026 16_08_53(5).jpg,soup_plate,2,I13,I13,1,train
+545,images/20_04_2026 16_08_53.jpg,soup_plate,2,I13,I13,1,train
+547,images/20_04_2026 16_08_54(1).jpg,saucepan,6,I14,I14,1,train
+548,images/20_04_2026 16_08_54(2).jpg,saucepan,6,I15,I15,1,validation
+549,images/20_04_2026 16_08_54(3).jpg,saucepan,6,I15,I15,1,validation
+550,images/20_04_2026 16_08_54(4).jpg,saucepan,6,I15,I15,1,validation
+551,images/20_04_2026 16_08_54(5).jpg,saucepan,6,I16,I16,1,validation
+553,images/20_04_2026 16_08_55 (2).jpg,saucepan,6,I16,I16,1,validation
+554,images/20_04_2026 16_08_55(1).jpg,saucepan,6,I17,I17,1,test
+555,images/20_04_2026 16_08_55(10).jpg,bowl,3,I18,I18,1,train
+556,images/20_04_2026 16_08_55(11).jpg,bowl,3,I19,I19,1,validation
+557,images/20_04_2026 16_08_55(12).jpg,bowl,3,I19,I19,1,validation
+558,images/20_04_2026 16_08_55(2).jpg,bowl,3,I18,I18,1,train
+559,images/20_04_2026 16_08_55(3).jpg,bowl,3,I18,I18,1,train
+560,images/20_04_2026 16_08_55(4).jpg,bowl,3,I18,I18,1,train
+561,images/20_04_2026 16_08_55(5).jpg,bowl,3,I19,I19,1,validation
+562,images/20_04_2026 16_08_55(6).jpg,bowl,3,I19,I19,1,validation
+563,images/20_04_2026 16_08_55(7).jpg,bowl,3,I19,I19,1,validation
+564,images/20_04_2026 16_08_55(8).jpg,bowl,3,I20,I20,1,test
+565,images/20_04_2026 16_08_55(9).jpg,bowl,3,I20,I20,1,test
+566,images/20_04_2026 16_08_55.jpg,saucepan,6,I21,I21,1,validation
+567,images/20_04_2026 16_08_56 (2).jpg,bowl,3,I21,I21,1,validation
+568,images/20_04_2026 16_08_56(1).jpg,bowl,3,I22,I22,1,train
+569,images/20_04_2026 16_08_56(10).jpg,flat_plate,1,I23,I23,1,test
+570,images/20_04_2026 16_08_56(11).jpg,flat_plate,1,I24,I24,1,test
+571,images/20_04_2026 16_08_56(12).jpg,flat_plate,1,I23,I23,1,test
+572,images/20_04_2026 16_08_56(2).jpg,bowl,3,I24,I24,1,test
+573,images/20_04_2026 16_08_56(3).jpg,bowl,3,I25,I25,1,test
+574,images/20_04_2026 16_08_56(4).jpg,bowl,3,I26,I26,1,test
+575,images/20_04_2026 16_08_56(5).jpg,bowl,3,I26,I26,1,test
+576,images/20_04_2026 16_08_56(6).jpg,bowl,3,I26,I26,1,test
+577,images/20_04_2026 16_08_56(7).jpg,bowl,3,I26,I26,1,test
+578,images/20_04_2026 16_08_56(8).jpg,bowl,3,I26,I26,1,test
+579,images/20_04_2026 16_08_56(9).jpg,flat_plate,1,I27,I27,1,validation
+580,images/20_04_2026 16_08_56.jpg,bowl,3,I28,I28,1,validation
+581,images/20_04_2026 16_08_57 (2).jpg,flat_plate,1,I29,I29,1,validation
+582,images/20_04_2026 16_08_57(1).jpg,flat_plate,1,I30,I30,1,train
+583,images/20_04_2026 16_08_57(10).jpg,mug,0,I31,I31,1,validation
+584,images/20_04_2026 16_08_57(2).jpg,flat_plate,1,I32,I32,1,validation
+585,images/20_04_2026 16_08_57(3).jpg,mug,0,I33,I33,1,validation
+586,images/20_04_2026 16_08_57(4).jpg,mug,0,I33,I33,1,validation
+587,images/20_04_2026 16_08_57(5).jpg,mug,0,I33,I33,1,validation
+588,images/20_04_2026 16_08_57(6).jpg,mug,0,I33,I33,1,validation
+589,images/20_04_2026 16_08_57(7).jpg,mug,0,I34,I34,1,test
+590,images/20_04_2026 16_08_57(8).jpg,mug,0,I34,I34,1,test
+591,images/20_04_2026 16_08_57(9).jpg,mug,0,I34,I34,1,test
+592,images/20_04_2026 16_08_57.jpg,flat_plate,1,I35,I35,1,train
+593,images/20_04_2026 16_08_58 (2).jpg,mug,0,I36,I36,1,test
+594,images/20_04_2026 16_08_58.jpg,mug,0,I37,I37,1,train
+595,images/20_04_2026 16_30_47.jpg,bowl,3,I38,I38,1,train
+596,images/20_04_2026 16_30_48(1).jpg,bowl,3,I38,I38,1,train
+597,images/20_04_2026 16_30_48.jpg,bowl,3,I38,I38,1,train
+598,images/20_04_2026 16_30_49.jpg,bowl,3,I38,I38,1,train
+599,images/20_04_2026 16_30_50.jpg,bowl,3,I38,I38,1,train
+600,images/20_04_2026 16_30_51(1).jpg,bowl,3,I38,I38,1,train
+601,images/20_04_2026 16_30_51.jpg,bowl,3,I38,I38,1,train
+602,images/20_04_2026 16_30_52.jpg,bowl,3,I39,I39,1,train
+603,images/20_04_2026 16_30_53.jpg,bowl,3,I39,I39,1,train
+604,images/20_04_2026 16_30_54(1).jpg,bowl,3,I40,I40,1,validation
+606,images/20_04_2026 16_30_55.jpg,bowl,3,I41,I41,1,test
+607,images/20_04_2026 16_30_56.jpg,bowl,3,I42,I42,1,test
+608,images/20_04_2026 16_30_57(1).jpg,bowl,3,I42,I42,1,test
+609,images/20_04_2026 16_30_57.jpg,bowl,3,I42,I42,1,test
+610,images/20_04_2026 16_30_58.jpg,bowl,3,I42,I42,1,test
+611,images/20_04_2026 16_30_59.jpg,bowl,3,I43,I43,1,validation
+612,images/20_04_2026 16_31_00.jpg,bowl,3,I44,I44,1,validation
+613,images/20_04_2026 16_31_01.jpg,bowl,3,I44,I44,1,validation
+614,images/20_04_2026 16_31_02.jpg,bowl,3,I44,I44,1,validation
+615,images/20_04_2026 16_31_03.jpg,bowl,3,I45,I45,1,train
+616,images/20_04_2026 16_31_04(1).jpg,bowl,3,I47,I47,1,train
+617,images/20_04_2026 16_31_04.jpg,bowl,3,I46,I46,1,train
+618,images/20_04_2026 16_31_05.jpg,bowl,3,I47,I47,1,train
+619,images/20_04_2026 16_31_06.jpg,bowl,3,I47,I47,1,train
+620,images/20_04_2026 16_31_07.jpg,bowl,3,I48,I48,1,train
+621,images/20_04_2026 16_31_08.jpg,bowl,3,I48,I48,1,train
+623,images/20_04_2026 16_31_09.jpg,bowl,3,I48,I48,1,train
+624,images/20_04_2026 16_31_10.jpg,bowl,3,I48,I48,1,train
+625,images/20_04_2026 16_31_11.jpg,bowl,3,I48,I48,1,train
+626,images/20_04_2026 16_31_12.jpg,bowl,3,I48,I48,1,train
+627,images/20_04_2026 16_31_13(1).jpg,bowl,3,I48,I48,1,train
+628,images/20_04_2026 16_31_13.jpg,bowl,3,I48,I48,1,train
+629,images/20_04_2026 16_31_14.jpg,bowl,3,I48,I48,1,train
+630,images/20_04_2026 16_31_15.jpg,bowl,3,I48,I48,1,train
+631,images/20_04_2026 16_33_18.jpg,pot,4,I49,I49,1,train
+632,images/20_04_2026 16_33_19.jpg,pot,4,I49,I49,1,train
+633,images/20_04_2026 16_33_20.jpg,pot,4,I49,I49,1,train
+634,images/20_04_2026 16_33_21.jpg,pot,4,I49,I49,1,train
+635,images/20_04_2026 16_33_22.jpg,pot,4,I50,I50,1,train
+636,images/20_04_2026 16_33_23(1).jpg,pot,4,I50,I50,1,train
+637,images/20_04_2026 16_33_23.jpg,pot,4,I50,I50,1,train
+638,images/20_04_2026 16_33_24.jpg,pot,4,I51,I51,1,validation
+639,images/20_04_2026 16_33_25.jpg,pot,4,I51,I51,1,validation
+640,images/20_04_2026 16_33_26(1).jpg,pot,4,I52,I52,1,train
+641,images/20_04_2026 16_33_27.jpg,pot,4,I52,I52,1,train
+642,images/20_04_2026 16_33_28(1).jpg,pot,4,I52,I52,1,train
+643,images/20_04_2026 16_33_28.jpg,pot,4,I52,I52,1,train
+644,images/20_04_2026 16_33_29.jpg,pot,4,I52,I52,1,train
+645,images/20_04_2026 16_33_30.jpg,pot,4,I52,I52,1,train
+646,images/20_04_2026 16_33_31(1).jpg,pot,4,I53,I53,1,test
+647,images/20_04_2026 16_33_31.jpg,pot,4,I53,I53,1,test
+648,images/20_04_2026 16_33_32.jpg,pot,4,I53,I53,1,test
+649,images/20_04_2026 16_33_33(1).jpg,pot,4,I53,I53,1,test
+650,images/20_04_2026 16_33_34.jpg,pot,4,I53,I53,1,test
+651,images/20_04_2026 16_33_35(1).jpg,pot,4,I54,I54,1,test
+652,images/20_04_2026 16_33_35.jpg,pot,4,I54,I54,1,test
+653,images/20_04_2026 16_33_36.jpg,pot,4,I54,I54,1,test
+654,images/20_04_2026 16_33_37.jpg,pot,4,I54,I54,1,test
+655,images/20_04_2026 16_33_38(1).jpg,pot,4,I55,I55,1,validation
+656,images/20_04_2026 16_33_38.jpg,pot,4,I55,I55,1,validation
+657,images/20_04_2026 16_33_39.jpg,pot,4,I55,I55,1,validation
+658,images/20_04_2026 16_33_40.jpg,pot,4,I55,I55,1,validation
+659,images/20_04_2026 16_33_41(1).jpg,pot,4,I56,I56,1,train
+660,images/20_04_2026 16_33_41.jpg,pot,4,I57,I57,1,validation
+661,images/20_04_2026 16_33_42.jpg,pot,4,I56,I56,1,train
+662,images/20_04_2026 16_33_43.jpg,pot,4,I56,I56,1,train
+663,images/20_04_2026 16_33_44(1).jpg,pot,4,I57,I57,1,validation
+664,images/20_04_2026 16_33_44.jpg,pot,4,I57,I57,1,validation
+665,images/20_04_2026 16_33_46(1).jpg,pot,4,I58,I58,1,train
+666,images/20_04_2026 16_33_46.jpg,pot,4,I59,I59,1,train
+667,images/20_04_2026 16_33_47.jpg,pot,4,I60,I60,1,train
+668,images/20_04_2026 16_33_48.jpg,pot,4,I60,I60,1,train
+669,images/20_04_2026 16_33_49(1).jpg,pot,4,I61,I61,1,test
+670,images/20_04_2026 16_33_49.jpg,pot,4,I62,I62,1,train
+671,images/20_04_2026 16_33_50.jpg,pot,4,I63,I63,1,train
+672,images/20_04_2026 16_33_51(1).jpg,pot,4,I64,I64,1,test
+673,images/20_04_2026 16_33_51.jpg,pot,4,I64,I64,1,test
+674,images/20_04_2026 16_33_52.jpg,pot,4,I65,I65,1,test
+675,images/20_04_2026 16_33_53.jpg,pot,4,I66,I66,1,train
+676,images/20_04_2026 16_33_54(1).jpg,pot,4,I66,I66,1,train
+677,images/20_04_2026 16_33_54.jpg,pot,4,I66,I66,1,train
+678,images/20_04_2026 16_33_55.jpg,pot,4,I66,I66,1,train
+679,images/20_04_2026 16_33_56.jpg,pot,4,I66,I66,1,train
+680,images/20_04_2026 16_33_57.jpg,pot,4,I66,I66,1,train
+681,images/20_04_2026 16_33_58(1).jpg,pot,4,I66,I66,1,train
+682,images/20_04_2026 16_33_58.jpg,pot,4,I66,I66,1,train
+683,images/20_04_2026 16_33_59.jpg,pot,4,I66,I66,1,train
+684,images/20_04_2026 16_34_00.jpg,pot,4,I66,I66,1,train
+685,images/20_04_2026 16_34_01(1).jpg,pot,4,I67,I67,1,validation
+686,images/20_04_2026 16_34_01.jpg,pot,4,I68,I68,1,validation
+687,images/20_04_2026 16_34_02.jpg,pot,4,I69,I69,1,train
+688,images/20_04_2026 16_34_03.jpg,pot,4,I69,I69,1,train
+689,images/20_04_2026 16_34_04.jpg,pot,4,I70,I70,1,validation
+690,images/20_04_2026 16_34_05(1).jpg,pot,4,I70,I70,1,validation
+691,images/20_04_2026 16_34_05.jpg,pot,4,I70,I70,1,validation
+692,images/20_04_2026 16_34_06.jpg,pot,4,I70,I70,1,validation
+693,images/20_04_2026 16_34_07(1).jpg,pot,4,I71,I71,1,test
+694,images/20_04_2026 16_34_07.jpg,pot,4,I72,I72,1,train
+695,images/20_04_2026 16_34_08.jpg,pot,4,I72,I72,1,train
+696,images/20_04_2026 16_34_09.jpg,pot,4,I73,I73,1,test
+697,images/20_04_2026 16_34_10(1).jpg,pot,4,I74,I74,1,train
+698,images/20_04_2026 16_34_10.jpg,pot,4,I75,I75,1,test
+699,images/20_04_2026 16_34_11.jpg,pot,4,I75,I75,1,test
+700,images/20_04_2026 16_34_46.jpg,wine_glass,5,I76,I76,1,validation
+701,images/20_04_2026 16_34_47(1).jpg,wine_glass,5,I76,I76,1,validation
+702,images/20_04_2026 16_34_47.jpg,wine_glass,5,I76,I76,1,validation
+703,images/20_04_2026 16_34_48.jpg,wine_glass,5,I77,I77,1,test
+704,images/20_04_2026 16_34_49.jpg,wine_glass,5,I78,I78,1,test
+705,images/20_04_2026 16_34_50.jpg,wine_glass,5,I79,I79,1,test
+706,images/20_04_2026 16_34_51(1).jpg,wine_glass,5,I79,I79,1,test
+707,images/20_04_2026 16_34_51.jpg,wine_glass,5,I79,I79,1,test
+708,images/20_04_2026 16_34_52.jpg,wine_glass,5,I79,I79,1,test
+709,images/20_04_2026 16_34_53.jpg,wine_glass,5,I80,I80,1,train
+710,images/20_04_2026 16_34_54(1).jpg,wine_glass,5,I80,I80,1,train
+711,images/20_04_2026 16_34_54.jpg,wine_glass,5,I80,I80,1,train
+712,images/20_04_2026 16_34_55.jpg,wine_glass,5,I80,I80,1,train
+713,images/20_04_2026 16_34_56.jpg,wine_glass,5,I80,I80,1,train
+714,images/20_04_2026 16_34_57(1).jpg,wine_glass,5,I81,I81,1,train
+715,images/20_04_2026 16_34_57.jpg,wine_glass,5,I81,I81,1,train
+716,images/20_04_2026 16_34_58.jpg,wine_glass,5,I81,I81,1,train
+717,images/20_04_2026 16_34_59.jpg,wine_glass,5,I82,I82,1,validation
+718,images/20_04_2026 16_35_00(1).jpg,wine_glass,5,I82,I82,1,validation
+719,images/20_04_2026 16_35_00.jpg,wine_glass,5,I82,I82,1,validation
+720,images/20_04_2026 16_35_01.jpg,wine_glass,5,I82,I82,1,validation
+721,images/20_04_2026 16_35_02.jpg,wine_glass,5,I83,I83,1,train
+722,images/20_04_2026 16_35_03(1).jpg,wine_glass,5,I83,I83,1,train
+723,images/20_04_2026 16_35_03.jpg,wine_glass,5,I83,I83,1,train
+724,images/20_04_2026 16_35_04.jpg,wine_glass,5,I84,I84,1,train
+725,images/20_04_2026 16_35_05(1).jpg,wine_glass,5,I84,I84,1,train
+726,images/20_04_2026 16_35_05.jpg,wine_glass,5,I84,I84,1,train
+727,images/20_04_2026 16_35_06.jpg,wine_glass,5,I84,I84,1,train
+728,images/20_04_2026 16_35_07(1).jpg,wine_glass,5,I84,I84,1,train
+729,images/20_04_2026 16_35_07.jpg,wine_glass,5,I84,I84,1,train
+730,images/20_04_2026 16_35_08.jpg,wine_glass,5,I84,I84,1,train
+731,images/20_04_2026 16_35_09(1).jpg,wine_glass,5,I84,I84,1,train
+732,images/20_04_2026 16_35_09.jpg,wine_glass,5,I84,I84,1,train
+733,images/20_04_2026 16_35_10.jpg,wine_glass,5,I84,I84,1,train
+734,images/20_04_2026 16_35_11.jpg,wine_glass,5,I84,I84,1,train
+735,images/20_04_2026 16_35_12(1).jpg,wine_glass,5,I85,I85,1,train
+736,images/20_04_2026 16_35_12.jpg,wine_glass,5,I85,I85,1,train
+737,images/20_04_2026 16_35_13.jpg,wine_glass,5,I85,I85,1,train
+738,images/20_04_2026 16_35_14.jpg,wine_glass,5,I85,I85,1,train
+739,images/20_04_2026 16_35_15(1).jpg,wine_glass,5,I85,I85,1,train
+740,images/20_04_2026 16_35_15.jpg,wine_glass,5,I85,I85,1,train
+741,images/20_04_2026 16_35_16.jpg,wine_glass,5,I85,I85,1,train
+742,images/20_04_2026 16_35_17(1).jpg,wine_glass,5,I86,I86,1,validation
+743,images/20_04_2026 16_35_17.jpg,wine_glass,5,I87,I87,1,validation
+744,images/20_04_2026 16_35_18.jpg,wine_glass,5,I88,I88,1,train
+745,images/20_04_2026 16_35_19.jpg,wine_glass,5,I88,I88,1,train
+746,images/20_04_2026 16_35_20(1).jpg,wine_glass,5,I89,I89,1,train
+747,images/20_04_2026 16_35_20.jpg,wine_glass,5,I89,I89,1,train
+748,images/20_04_2026 16_35_21.jpg,wine_glass,5,I90,I90,1,validation
+749,images/20_04_2026 16_35_22.jpg,wine_glass,5,I91,I91,1,test
+750,images/20_04_2026 16_35_23.jpg,wine_glass,5,I91,I91,1,test
+751,images/20_04_2026 16_35_24(1).jpg,wine_glass,5,I92,I92,1,train
+752,images/20_04_2026 16_35_24.jpg,wine_glass,5,I93,I93,1,validation
+753,images/20_04_2026 16_35_25.jpg,wine_glass,5,I94,I94,1,test
+754,images/20_04_2026 16_35_26.jpg,wine_glass,5,I94,I94,1,test
+755,images/20_04_2026 16_35_27(1).jpg,wine_glass,5,I95,I95,1,train
+756,images/20_04_2026 16_35_27.jpg,wine_glass,5,I95,I95,1,train
+757,images/20_04_2026 16_35_28.jpg,wine_glass,5,I96,I96,1,validation
+758,images/20_04_2026 16_35_29.jpg,wine_glass,5,I97,I97,1,validation
+759,images/20_04_2026 16_35_30.jpg,wine_glass,5,I97,I97,1,validation
+760,images/20_04_2026 16_35_31(1).jpg,wine_glass,5,I98,I98,1,train
+761,images/20_04_2026 16_35_31.jpg,wine_glass,5,I98,I98,1,train
+762,images/20_04_2026 16_35_32.jpg,wine_glass,5,I98,I98,1,train
+763,images/20_04_2026 16_35_33(1).jpg,wine_glass,5,I98,I98,1,train
+764,images/20_04_2026 16_35_33.jpg,wine_glass,5,I98,I98,1,train
+765,images/20_04_2026 16_35_34.jpg,wine_glass,5,I99,I99,1,train
+766,images/20_04_2026 16_35_35(1).jpg,wine_glass,5,I99,I99,1,train
+767,images/20_04_2026 16_35_35.jpg,wine_glass,5,I99,I99,1,train
+768,images/20_04_2026 16_35_36.jpg,wine_glass,5,I99,I99,1,train
+769,images/20_04_2026 16_35_37.jpg,wine_glass,5,I120,I120,1,train
+770,images/20_04_2026 16_35_38(1).jpg,wine_glass,5,I120,I120,1,train
+771,images/20_04_2026 16_35_38.jpg,wine_glass,5,I120,I120,1,train
+772,images/20_04_2026 16_35_39.jpg,wine_glass,5,I120,I120,1,train
+773,images/20_04_2026 16_35_40.jpg,wine_glass,5,I120,I120,1,train
+774,images/20_04_2026 16_35_41(1).jpg,wine_glass,5,I120,I120,1,train
+775,images/20_04_2026 16_35_41.jpg,wine_glass,5,I120,I120,1,train
+776,images/20_04_2026 16_35_42.jpg,wine_glass,5,I120,I120,1,train
+777,images/20_04_2026 16_35_43(1).jpg,wine_glass,5,I121,I121,1,train
+778,images/20_04_2026 16_35_43.jpg,wine_glass,5,I121,I121,1,train
+779,images/20_04_2026 16_35_44.jpg,wine_glass,5,I121,I121,1,train
+780,images/20_04_2026 16_35_45.jpg,wine_glass,5,I121,I121,1,train
+781,images/20_04_2026 16_35_46.jpg,wine_glass,5,I122,I122,1,validation
+782,images/20_04_2026 16_35_47(1).jpg,wine_glass,5,I122,I122,1,validation
+783,images/20_04_2026 16_35_47.jpg,wine_glass,5,I123,I123,1,test
+784,images/20_04_2026 16_35_48.jpg,wine_glass,5,I123,I123,1,test
+785,images/20_04_2026 16_35_49.jpg,wine_glass,5,I123,I123,1,test
+786,images/20_04_2026 16_35_50(1).jpg,wine_glass,5,I124,I124,1,test
+787,images/20_04_2026 16_35_50.jpg,wine_glass,5,I124,I124,1,test
+788,images/20_04_2026 16_35_51.jpg,wine_glass,5,I124,I124,1,test
+789,images/20_04_2026 16_35_52.jpg,wine_glass,5,I125,I125,1,train
+790,images/20_04_2026 16_35_53(1).jpg,wine_glass,5,I126,I126,1,validation
+791,images/20_04_2026 16_35_53.jpg,wine_glass,5,I126,I126,1,validation
+792,images/20_04_2026 16_35_54.jpg,wine_glass,5,I127,I127,1,train
+793,images/20_04_2026 16_35_55.jpg,wine_glass,5,I127,I127,1,train
+794,images/20_04_2026 16_35_56(1).jpg,wine_glass,5,I127,I127,1,train
+795,images/20_04_2026 16_35_56.jpg,wine_glass,5,I127,I127,1,train
+796,images/20_04_2026 16_35_57.jpg,wine_glass,5,I127,I127,1,train
+797,images/20_04_2026 16_35_58(1).jpg,wine_glass,5,I128,I128,1,train
+798,images/20_04_2026 16_35_58.jpg,wine_glass,5,I129,I129,1,train
+799,images/20_04_2026 16_35_59.jpg,wine_glass,5,I130,I130,1,validation
+800,images/20_04_2026 16_36_00(1).jpg,wine_glass,5,I130,I130,1,validation
+801,images/20_04_2026 16_36_00.jpg,wine_glass,5,I130,I130,1,validation
+802,images/20_04_2026 16_36_01.jpg,wine_glass,5,I131,I131,1,test
+803,images/20_04_2026 16_36_02.jpg,wine_glass,5,I131,I131,1,test
+804,images/20_04_2026 16_36_03(1).jpg,wine_glass,5,I131,I131,1,test
+805,images/20_04_2026 16_36_03.jpg,wine_glass,5,I131,I131,1,test
+806,images/20_04_2026 16_36_04.jpg,wine_glass,5,I132,I132,1,train
+807,images/20_04_2026 16_36_05.jpg,wine_glass,5,I133,I133,1,train
+808,images/20_04_2026 16_36_06(1).jpg,wine_glass,5,I133,I133,1,train
+809,images/20_04_2026 16_36_06.jpg,wine_glass,5,I133,I133,1,train
+810,images/20_04_2026 16_36_07.jpg,wine_glass,5,I133,I133,1,train
+811,images/20_04_2026 16_36_08.jpg,wine_glass,5,I133,I133,1,train
+812,images/20_04_2026 16_36_09(1).jpg,wine_glass,5,I133,I133,1,train
+813,images/20_04_2026 16_36_09.jpg,wine_glass,5,I133,I133,1,train
+814,images/20_04_2026 16_36_10.jpg,wine_glass,5,I133,I133,1,train
+815,images/20_04_2026 16_36_11.jpg,wine_glass,5,I133,I133,1,train
+816,images/20_04_2026 16_36_12.jpg,wine_glass,5,I133,I133,1,train
+817,images/20_04_2026 16_36_13(1).jpg,wine_glass,5,I134,I134,1,validation
+818,images/20_04_2026 16_36_13.jpg,wine_glass,5,I135,I135,1,validation
+819,images/20_04_2026 16_36_14.jpg,wine_glass,5,I135,I135,1,validation
+820,images/20_04_2026 16_36_49.jpg,mug,0,I136,I136,1,test
+821,images/20_04_2026 16_36_50(1).jpg,mug,0,I136,I136,1,test
+822,images/20_04_2026 16_36_50.jpg,mug,0,I136,I136,1,test
+823,images/20_04_2026 16_36_51.jpg,mug,0,I137,I137,1,test
+824,images/20_04_2026 16_36_52.jpg,mug,0,I137,I137,1,test
+825,images/20_04_2026 16_36_53.jpg,mug,0,I138,I138,1,train
+826,images/20_04_2026 16_36_54(1).jpg,mug,0,I139,I139,1,test
+827,images/20_04_2026 16_36_54.jpg,mug,0,I140,I140,1,train
+828,images/20_04_2026 16_36_55.jpg,mug,0,I141,I141,1,train
+829,images/20_04_2026 16_36_56.jpg,mug,0,I142,I142,1,validation
+830,images/20_04_2026 16_36_57(1).jpg,mug,0,I142,I142,1,validation
+831,images/20_04_2026 16_36_57.jpg,mug,0,I142,I142,1,validation
+832,images/20_04_2026 16_36_58.jpg,mug,0,I143,I143,1,validation
+833,images/20_04_2026 16_36_59.jpg,mug,0,I143,I143,1,validation
+834,images/20_04_2026 16_37_00.jpg,mug,0,I143,I143,1,validation
+835,images/20_04_2026 16_37_01(1).jpg,mug,0,I144,I144,1,train
+836,images/20_04_2026 16_37_01.jpg,mug,0,I144,I144,1,train
+837,images/20_04_2026 16_37_02.jpg,mug,0,I144,I144,1,train
+838,images/20_04_2026 16_37_03.jpg,mug,0,I144,I144,1,train
+839,images/20_04_2026 16_37_04.jpg,mug,0,I144,I144,1,train
+840,images/20_04_2026 16_37_05(1).jpg,mug,0,I145,I145,1,train
+841,images/20_04_2026 16_37_05.jpg,mug,0,I146,I146,1,train
+842,images/20_04_2026 16_37_06.jpg,mug,0,I145,I145,1,train
+843,images/20_04_2026 16_37_07.jpg,mug,0,I146,I146,1,train
+844,images/20_04_2026 16_37_08(1).jpg,mug,0,I146,I146,1,train
+845,images/20_04_2026 16_37_08.jpg,mug,0,I147,I147,1,validation
+846,images/20_04_2026 16_37_09.jpg,mug,0,I148,I148,1,validation
+847,images/20_04_2026 16_37_10.jpg,mug,0,I148,I148,1,validation
+848,images/20_04_2026 16_37_11(1).jpg,mug,0,I148,I148,1,validation
+850,images/20_04_2026 16_37_12.jpg,mug,0,I148,I148,1,validation
+853,images/20_04_2026 16_37_15(1).jpg,mug,0,I149,I149,1,validation
+854,images/20_04_2026 16_37_15(2).jpg,mug,0,I149,I149,1,validation
+855,images/20_04_2026 16_37_15.jpg,mug,0,I150,I150,1,train
+856,images/20_04_2026 16_37_16(1).jpg,mug,0,I149,I149,1,validation
+857,images/20_04_2026 16_37_16.jpg,mug,0,I151,I151,1,validation
+858,images/20_04_2026 16_37_17(1).jpg,mug,0,I152,I152,1,test
+859,images/20_04_2026 16_37_17(2).jpg,mug,0,I152,I152,1,test
+860,images/20_04_2026 16_37_17(3).jpg,mug,0,I153,I153,1,test
+861,images/20_04_2026 16_37_17.jpg,mug,0,I154,I154,1,train
+862,images/20_04_2026 16_37_18(1).jpg,mug,0,I154,I154,1,train
+863,images/20_04_2026 16_37_18.jpg,mug,0,I154,I154,1,train
+864,images/20_04_2026 16_37_19(1).jpg,mug,0,I154,I154,1,train
+865,images/20_04_2026 16_37_19(2).jpg,mug,0,I155,I155,1,validation
+866,images/20_04_2026 16_37_19.jpg,mug,0,I156,I156,1,test
+867,images/20_04_2026 16_37_20(1).jpg,mug,0,I157,I157,1,train
+869,images/20_04_2026 16_37_20.jpg,mug,0,I158,I158,1,train
+870,images/20_04_2026 16_37_21(1).jpg,mug,0,I159,I159,1,validation
+871,images/20_04_2026 16_37_21.jpg,mug,0,I160,I160,1,test
+872,images/20_04_2026 16_38_19.jpg,saucepan,6,I161,I161,1,train
+873,images/20_04_2026 16_38_20.jpg,saucepan,6,I161,I161,1,train
+874,images/20_04_2026 16_38_21.jpg,saucepan,6,I161,I161,1,train
+875,images/20_04_2026 16_38_22.jpg,saucepan,6,I161,I161,1,train
+876,images/20_04_2026 16_38_23(1).jpg,saucepan,6,I162,I162,1,test
+877,images/20_04_2026 16_38_23.jpg,saucepan,6,I162,I162,1,test
+878,images/20_04_2026 16_38_24.jpg,saucepan,6,I162,I162,1,test
+879,images/20_04_2026 16_38_25.jpg,saucepan,6,,task_879,1,train
+880,images/20_04_2026 16_38_26.jpg,saucepan,6,I162,I162,1,test
+881,images/20_04_2026 16_38_27(1).jpg,saucepan,6,I163,I163,1,validation
+882,images/20_04_2026 16_38_27.jpg,saucepan,6,I163,I163,1,validation
+884,images/20_04_2026 16_38_29(1).jpg,saucepan,6,I164,I164,1,test
+885,images/20_04_2026 16_38_29.jpg,saucepan,6,I164,I164,1,test
+886,images/20_04_2026 16_38_30.jpg,saucepan,6,I164,I164,1,test
+888,images/20_04_2026 16_38_31.jpg,saucepan,6,I165,I165,1,validation
+889,images/20_04_2026 16_38_32.jpg,saucepan,6,I165,I165,1,validation
+890,images/20_04_2026 16_38_33.jpg,saucepan,6,I165,I165,1,validation
+891,images/20_04_2026 16_38_34(1).jpg,saucepan,6,I166,I166,1,train
+892,images/20_04_2026 16_38_34.jpg,saucepan,6,I166,I166,1,train
+893,images/20_04_2026 16_38_35.jpg,saucepan,6,I166,I166,1,train
+894,images/20_04_2026 16_38_36.jpg,saucepan,6,I166,I166,1,train
+895,images/20_04_2026 16_38_37(1).jpg,saucepan,6,I166,I166,1,train
+896,images/20_04_2026 16_38_37.jpg,saucepan,6,I166,I166,1,train
+897,images/20_04_2026 16_38_38.jpg,saucepan,6,I166,I166,1,train
+898,images/20_04_2026 16_38_39.jpg,saucepan,6,I166,I166,1,train
+899,images/20_04_2026 16_38_40.jpg,saucepan,6,I166,I166,1,train
+900,images/20_04_2026 16_38_41(1).jpg,saucepan,6,I166,I166,1,train
+901,images/20_04_2026 16_38_41.jpg,saucepan,6,I166,I166,1,train
+902,images/20_04_2026 16_38_42.jpg,saucepan,6,I166,I166,1,train
+903,images/20_04_2026 16_38_43.jpg,saucepan,6,I166,I166,1,train
+904,images/20_04_2026 16_38_44(1).jpg,saucepan,6,I166,I166,1,train
+905,images/20_04_2026 16_38_44.jpg,saucepan,6,I166,I166,1,train
+906,images/20_04_2026 16_38_45.jpg,saucepan,6,I166,I166,1,train
+907,images/20_04_2026 16_38_46.jpg,saucepan,6,I166,I166,1,train
+908,images/20_04_2026 16_38_47(1).jpg,saucepan,6,I167,I167,1,test
+909,images/20_04_2026 16_38_47.jpg,saucepan,6,I166,I166,1,train
+910,images/20_04_2026 16_38_48.jpg,saucepan,6,I167;I168,I167,1,test
+911,images/20_04_2026 16_38_49.jpg,saucepan,6,I168,I167,1,test
+912,images/20_04_2026 16_38_50(1).jpg,saucepan,6,I169,I169,1,validation
+913,images/20_04_2026 16_38_50.jpg,saucepan,6,I169,I169,1,validation
+914,images/20_04_2026 16_38_51.jpg,saucepan,6,I169,I169,1,validation
+916,images/20_04_2026 16_38_53(1).jpg,saucepan,6,I169,I169,1,validation
+918,images/20_04_2026 16_38_54.jpg,saucepan,6,I169,I169,1,validation
+919,images/20_04_2026 16_38_55(1).jpg,saucepan,6,I170,I170,1,train
+920,images/20_04_2026 16_38_55.jpg,saucepan,6,I171,I171,1,validation
+921,images/20_04_2026 16_38_56.jpg,saucepan,6,I172,I172,1,train
+922,images/20_04_2026 16_38_57(1).jpg,saucepan,6,I172,I172,1,train
+923,images/20_04_2026 16_38_57.jpg,saucepan,6,I172,I172,1,train
+924,images/20_04_2026 16_38_58.jpg,saucepan,6,I173,I173,1,train
+925,images/20_04_2026 16_38_59.jpg,saucepan,6,I173,I173,1,train
+926,images/20_04_2026 16_39_00.jpg,saucepan,6,I173,I173,1,train
+927,images/20_04_2026 16_39_01(1).jpg,saucepan,6,I173,I173,1,train
+928,images/20_04_2026 16_39_01.jpg,saucepan,6,I173,I173,1,train
+929,images/20_04_2026 16_39_02.jpg,saucepan,6,I173,I173,1,train
+930,images/20_04_2026 16_39_03.jpg,saucepan,6,I173,I173,1,train
+931,images/20_04_2026 16_39_04.jpg,saucepan,6,I173,I173,1,train
+932,images/20_04_2026 16_39_05(1).jpg,saucepan,6,I174,I174,1,train
+933,images/20_04_2026 16_39_05.jpg,saucepan,6,I174,I174,1,train
+934,images/20_04_2026 16_39_06.jpg,saucepan,6,I174,I174,1,train
+935,images/20_04_2026 16_39_07(1).jpg,saucepan,6,I174,I174,1,train
+936,images/20_04_2026 16_39_07.jpg,saucepan,6,I174,I174,1,train
+937,images/20_04_2026 16_39_08.jpg,saucepan,6,I174,I174,1,train
+938,images/20_04_2026 16_39_09.jpg,saucepan,6,I174,I174,1,train
+939,images/20_04_2026 16_39_10(1).jpg,saucepan,6,I174,I174,1,train
+940,images/20_04_2026 16_39_10.jpg,saucepan,6,I174,I174,1,train
+941,images/20_04_2026 16_39_11.jpg,saucepan,6,I174,I174,1,train
+942,images/20_04_2026 16_39_12(1).jpg,saucepan,6,I175,I175,1,train
+943,images/20_04_2026 16_39_12.jpg,saucepan,6,I175,I175,1,train
+944,images/20_04_2026 16_39_13.jpg,saucepan,6,I175,I175,1,train
+945,images/20_04_2026 16_39_14.jpg,saucepan,6,I175,I175,1,train
+946,images/20_04_2026 16_39_15(1).jpg,saucepan,6,I175,I175,1,train
+947,images/20_04_2026 16_39_15.jpg,saucepan,6,I175,I175,1,train
+948,images/20_04_2026 16_39_16.jpg,saucepan,6,I175,I175,1,train
+949,images/20_04_2026 16_39_17.jpg,saucepan,6,I175,I175,1,train
+950,images/20_04_2026 16_39_18(1).jpg,saucepan,6,I176,I176,1,validation
+951,images/20_04_2026 16_39_18.jpg,saucepan,6,I177,I177,1,validation
+952,images/20_04_2026 16_39_19.jpg,saucepan,6,I178,I178,1,test
+954,images/20_04_2026 16_39_21.jpg,saucepan,6,I179,I179,1,test
+955,images/20_04_2026 16_39_22(1).jpg,saucepan,6,I179,I179,1,test
+956,images/20_04_2026 16_39_22.jpg,saucepan,6,I179,I179,1,test
+957,images/20_04_2026 16_39_23.jpg,saucepan,6,I179,I179,1,test
+958,images/20_04_2026 16_39_24.jpg,saucepan,6,I179,I179,1,test
+959,images/20_04_2026 16_39_25.jpg,saucepan,6,I179,I179,1,test
+960,images/20_04_2026 16_39_26(1).jpg,saucepan,6,I100,I100,1,validation
+961,images/20_04_2026 16_39_26.jpg,saucepan,6,I100,I100,1,validation
+962,images/20_04_2026 16_39_27.jpg,saucepan,6,I100,I100,1,validation
+963,images/20_04_2026 16_39_29.jpg,saucepan,6,I101,I101,1,validation
+964,images/20_04_2026 16_39_31.jpg,saucepan,6,I101,I101,1,validation
+965,images/20_04_2026 16_39_32.jpg,saucepan,6,I101,I101,1,validation
+966,images/20_04_2026 16_39_33.jpg,saucepan,6,I101,I101,1,validation
+967,images/20_04_2026 16_39_34.jpg,saucepan,6,I101,I101,1,validation
+968,images/20_04_2026 16_39_35.jpg,saucepan,6,I102,I102,1,test
+969,images/20_04_2026 16_39_36.jpg,saucepan,6,I102,I102,1,test
+970,images/20_04_2026 16_39_37.jpg,saucepan,6,I102,I102,1,test
+971,images/20_04_2026 16_39_38.jpg,saucepan,6,I103,I103,1,test
+972,images/20_04_2026 16_39_40.jpg,saucepan,6,I104,I104,1,validation
+973,images/20_04_2026 16_39_41.jpg,saucepan,6,I105,I105,1,test
+974,images/20_04_2026 16_39_42.jpg,saucepan,6,I106,I106,1,train
+975,images/20_04_2026 16_39_43.jpg,saucepan,6,I107,I107,1,train
+976,images/20_04_2026 16_39_45.jpg,saucepan,6,I107,I107,1,train
+977,images/20_04_2026 16_39_46.jpg,saucepan,6,I108,I108,1,test
+978,images/20_04_2026 16_39_47.jpg,saucepan,6,I109,I109,1,validation
+979,images/20_04_2026 16_39_48.jpg,saucepan,6,I110,I110,1,train
+980,images/20_04_2026 16_39_49(1).jpg,saucepan,6,I110,I110,1,train
+981,images/20_04_2026 16_39_49.jpg,saucepan,6,I110,I110,1,train
+982,images/20_04_2026 16_39_50.jpg,saucepan,6,I110,I110,1,train
+983,images/20_04_2026 16_39_51(1).jpg,saucepan,6,I110,I110,1,train
+984,images/20_04_2026 16_39_51.jpg,saucepan,6,I110,I110,1,train
+985,images/20_04_2026 16_39_52.jpg,saucepan,6,I110,I110,1,train
+986,images/20_04_2026 16_39_53.jpg,saucepan,6,I110,I110,1,train
+987,images/20_04_2026 16_39_54(1).jpg,saucepan,6,I110,I110,1,train
+988,images/20_04_2026 16_39_54.jpg,saucepan,6,I110,I110,1,train
+989,images/20_04_2026 16_39_55.jpg,saucepan,6,I110,I110,1,train
+990,images/20_04_2026 16_39_56.jpg,saucepan,6,I110,I110,1,train
+991,images/20_04_2026 16_39_57(1).jpg,saucepan,6,I110,I110,1,train
+992,images/20_04_2026 16_39_57.jpg,saucepan,6,I110,I110,1,train
+993,images/20_04_2026 16_39_58.jpg,saucepan,6,I110,I110,1,train
+994,images/20_04_2026 16_39_59.jpg,saucepan,6,I110,I110,1,train
+996,images/20_04_2026 16_40_01.jpg,saucepan,6,I110,I110,1,train
+997,images/20_04_2026 16_40_34.jpg,flat_plate,1,I111,I111,1,validation
+998,images/20_04_2026 16_40_35(1).jpg,flat_plate,1,I111,I111,1,validation
+999,images/20_04_2026 16_40_35.jpg,flat_plate,1,I111,I111,1,validation
+1000,images/20_04_2026 16_40_36.jpg,flat_plate,1,I112,I112,1,train
+1001,images/20_04_2026 16_40_37.jpg,soup_plate,2,M112,M112,1,train
+1002,images/20_04_2026 16_40_38.jpg,soup_plate,2,M112,M112,1,train
+1003,images/20_04_2026 16_40_39(1).jpg,soup_plate,2,M112,M112,1,train
+1004,images/20_04_2026 16_40_39.jpg,soup_plate,2,M112,M112,1,train
+1005,images/20_04_2026 16_40_40.jpg,soup_plate,2,M112,M112,1,train
+1007,images/20_04_2026 16_40_42(1).jpg,soup_plate,2,M114,M114,1,train
+1008,images/20_04_2026 16_40_42.jpg,soup_plate,2,M114,M114,1,train
+1009,images/20_04_2026 16_40_43.jpg,soup_plate,2,M114,M114,1,train
+1010,images/20_04_2026 16_40_44.jpg,soup_plate,2,M114,M114,1,train
+1011,images/20_04_2026 16_40_45(1).jpg,soup_plate,2,M115,M115,1,test
+1013,images/20_04_2026 16_40_46.jpg,soup_plate,2,M115,M115,1,test
+1014,images/20_04_2026 16_40_47.jpg,soup_plate,2,M115,M115,1,test
+1017,images/20_04_2026 16_40_49.jpg,soup_plate,2,M115,M115,1,test
+1019,images/20_04_2026 16_40_51.jpg,soup_plate,2,M115,M115,1,test
+1020,images/20_04_2026 16_40_52.jpg,soup_plate,2,M116,M116,1,train
+1021,images/20_04_2026 16_40_53.jpg,soup_plate,2,M116,M116,1,train
+1022,images/20_04_2026 16_40_54(1).jpg,soup_plate,2,M116,M116,1,train
+1023,images/20_04_2026 16_40_54.jpg,soup_plate,2,M116,M116,1,train
+1028,images/20_04_2026 16_40_58.jpg,soup_plate,2,M116,M116,1,train
+1029,images/20_04_2026 16_40_59.jpg,soup_plate,2,M116,M116,1,train
+1030,images/20_04_2026 16_41_00(1).jpg,soup_plate,2,M116,M116,1,train
+1031,images/20_04_2026 16_41_00.jpg,soup_plate,2,M116,M116,1,train
+1032,images/20_04_2026 16_41_01.jpg,soup_plate,2,M116,M116,1,train
+1033,images/20_04_2026 16_41_02.jpg,soup_plate,2,M116,M116,1,train
+1034,images/20_04_2026 16_41_03.jpg,soup_plate,2,M116,M116,1,train
+1035,images/20_04_2026 16_41_04(1).jpg,soup_plate,2,M116,M116,1,train
+1037,images/20_04_2026 16_41_05.jpg,soup_plate,2,M116,M116,1,train
+1038,images/20_04_2026 16_41_06.jpg,soup_plate,2,M116,M116,1,train
+1039,images/20_04_2026 16_41_07(1).jpg,soup_plate,2,M116,M116,1,train
+1040,images/20_04_2026 16_41_07.jpg,soup_plate,2,M116,M116,1,train
+1041,images/20_04_2026 16_41_08.jpg,soup_plate,2,M116,M116,1,train
+1042,images/20_04_2026 16_41_09.jpg,soup_plate,2,M116,M116,1,train
+1043,images/20_04_2026 16_41_10(1).jpg,soup_plate,2,M117,M117,1,train
+1044,images/20_04_2026 16_41_10.jpg,soup_plate,2,M116,M116,1,train
+1045,images/20_04_2026 16_41_11.jpg,soup_plate,2,M117,M117,1,train
+1046,images/20_04_2026 16_41_12(1).jpg,soup_plate,2,M117,M117,1,train
+1047,images/20_04_2026 16_41_12.jpg,soup_plate,2,M117,M117,1,train
+1048,images/20_04_2026 16_41_13.jpg,soup_plate,2,M117,M117,1,train
+1049,images/20_04_2026 16_41_14.jpg,soup_plate,2,M117,M117,1,train
+1051,images/20_04_2026 16_41_15.jpg,soup_plate,2,M117,M117,1,train
+1052,images/20_04_2026 16_41_16.jpg,soup_plate,2,M117,M117,1,train
+1053,images/20_04_2026 16_41_17.jpg,soup_plate,2,M117,M117,1,train
+1054,images/20_04_2026 16_41_18(1).jpg,soup_plate,2,M114,M114,1,train
+1055,images/20_04_2026 16_41_18.jpg,soup_plate,2,M114,M114,1,train
+1056,images/20_04_2026 16_41_19.jpg,soup_plate,2,M114,M114,1,train
+1058,images/20_04_2026 16_41_21(1).jpg,soup_plate,2,M114,M114,1,train
+1059,images/20_04_2026 16_41_22.jpg,soup_plate,2,M114,M114,1,train
+1060,images/20_04_2026 16_41_23.jpg,soup_plate,2,M114,M114,1,train
+1061,images/20_04_2026 16_41_24(1).jpg,soup_plate,2,M118,M118,1,train
+1062,images/20_04_2026 16_41_24.jpg,soup_plate,2,M114,M114,1,train
+1063,images/20_04_2026 16_41_25.jpg,soup_plate,2,M118,M118,1,train
+1064,images/20_04_2026 16_41_26.jpg,soup_plate,2,M118,M118,1,train
+1065,images/20_04_2026 16_41_27.jpg,soup_plate,2,M118,M118,1,train
+1066,images/20_04_2026 16_41_28(1).jpg,soup_plate,2,M118,M118,1,train
+1067,images/20_04_2026 16_41_28.jpg,soup_plate,2,M118,M118,1,train
+1068,images/20_04_2026 16_41_29.jpg,soup_plate,2,M118,M118,1,train
+1069,images/20_04_2026 16_41_30.jpg,soup_plate,2,M118,M118,1,train
+1070,images/20_04_2026 16_41_31(1).jpg,soup_plate,2,M112,M112,1,train
+1071,images/20_04_2026 16_41_31.jpg,soup_plate,2,M118,M118,1,train
+1072,images/20_04_2026 16_41_32.jpg,soup_plate,2,M112,M112,1,train
+1073,images/20_04_2026 16_41_33.jpg,soup_plate,2,M112,M112,1,train
+1074,images/20_04_2026 16_41_34(1).jpg,soup_plate,2,M119,M119,1,train
+1075,images/20_04_2026 16_41_34.jpg,soup_plate,2,M112,M112,1,train
+1076,images/20_04_2026 16_41_35.jpg,soup_plate,2,M119,M119,1,train
+1077,images/20_04_2026 16_41_36.jpg,soup_plate,2,M119,M119,1,train
+1078,images/20_04_2026 16_41_37(1).jpg,soup_plate,2,M119,M119,1,train
+1079,images/20_04_2026 16_41_37.jpg,soup_plate,2,M119,M119,1,train
+1080,images/20_04_2026 16_41_38.jpg,soup_plate,2,M119,M119,1,train
+1081,images/20_04_2026 16_41_39.jpg,soup_plate,2,M119,M119,1,train
+1082,images/20_04_2026 16_41_40(1).jpg,soup_plate,2,M119,M119,1,train
+1083,images/20_04_2026 16_41_40.jpg,soup_plate,2,M119,M119,1,train
+1084,images/20_04_2026 16_41_41.jpg,soup_plate,2,M120,M120,1,test
+1085,images/20_04_2026 16_41_42.jpg,soup_plate,2,M120,M120,1,test
+1086,images/20_04_2026 16_41_43(1).jpg,soup_plate,2,M120,M120,1,test
+1087,images/20_04_2026 16_41_43.jpg,soup_plate,2,M120,M120,1,test
+1088,images/20_04_2026 16_41_44.jpg,soup_plate,2,M120,M120,1,test
+1089,images/20_04_2026 16_41_45.jpg,soup_plate,2,M120,M120,1,test
+1090,images/20_04_2026 16_41_46(1).jpg,soup_plate,2,M120,M120,1,test
+1091,images/20_04_2026 16_41_46.jpg,soup_plate,2,M120,M120,1,test
+1092,images/20_04_2026 16_41_47.jpg,soup_plate,2,M121,M121,1,validation
+1093,images/20_04_2026 16_41_48.jpg,soup_plate,2,M121,M121,1,validation
+1094,images/20_04_2026 16_41_49(1).jpg,soup_plate,2,M121,M121,1,validation
+1095,images/20_04_2026 16_41_49.jpg,soup_plate,2,M121,M121,1,validation
+1096,images/20_04_2026 16_41_50.jpg,soup_plate,2,M121,M121,1,validation
+1097,images/20_04_2026 16_41_51.jpg,soup_plate,2,M121,M121,1,validation
+1098,images/20_04_2026 16_41_52(1).jpg,soup_plate,2,M114,M114,1,train
+1099,images/20_04_2026 16_41_52.jpg,soup_plate,2,M114,M114,1,train
+1100,images/20_04_2026 16_41_53.jpg,soup_plate,2,M122,M122,1,test
+1101,images/20_04_2026 16_41_54.jpg,soup_plate,2,M122,M122,1,test
+1102,images/20_04_2026 16_41_55(1).jpg,soup_plate,2,M116,M116,1,train
+1103,images/20_04_2026 16_41_55.jpg,soup_plate,2,M122,M122,1,test
+1104,images/20_04_2026 16_41_56.jpg,soup_plate,2,M116,M116,1,train
+1105,images/20_04_2026 16_42_27.jpg,flat_plate,1,M123,M123,1,train
+1106,images/20_04_2026 16_42_28.jpg,flat_plate,1,M123,M123,1,train
+1107,images/20_04_2026 16_42_29(1).jpg,flat_plate,1,M124,M124,1,test
+1108,images/20_04_2026 16_42_29.jpg,flat_plate,1,M125,M125,1,test
+1109,images/20_04_2026 16_42_30.jpg,flat_plate,1,M124,M124,1,test
+1110,images/20_04_2026 16_42_31.jpg,flat_plate,1,M124,M124,1,test
+1111,images/20_04_2026 16_42_32(1).jpg,flat_plate,1,M124,M124,1,test
+1112,images/20_04_2026 16_42_32.jpg,flat_plate,1,M124,M124,1,test
+1114,images/20_04_2026 16_42_34.jpg,flat_plate,1,M126,M126,1,train
+1115,images/20_04_2026 16_42_35(1).jpg,flat_plate,1,M126,M126,1,train
+1116,images/20_04_2026 16_42_35.jpg,flat_plate,1,M126,M126,1,train
+1117,images/20_04_2026 16_42_36.jpg,flat_plate,1,M126,M126,1,train
+1118,images/20_04_2026 16_42_37.jpg,flat_plate,1,M127,M127,1,train
+1119,images/20_04_2026 16_42_38.jpg,flat_plate,1,M127,M127,1,train
+1120,images/20_04_2026 16_42_39(1).jpg,flat_plate,1,M127,M127,1,train
+1121,images/20_04_2026 16_42_39.jpg,flat_plate,1,M127,M127,1,train
+1122,images/20_04_2026 16_42_40.jpg,flat_plate,1,M127,M127,1,train
+1123,images/20_04_2026 16_42_41.jpg,flat_plate,1,M128,M128,1,test
+1124,images/20_04_2026 16_42_42.jpg,flat_plate,1,M128,M128,1,test
+1125,images/20_04_2026 16_42_43(1).jpg,flat_plate,1,M128,M128,1,test
+1126,images/20_04_2026 16_42_43.jpg,flat_plate,1,M128,M128,1,test
+1127,images/20_04_2026 16_42_44.jpg,flat_plate,1,M129,M129,1,train
+1128,images/20_04_2026 16_42_45.jpg,flat_plate,1,M130,M130,1,train
+1129,images/20_04_2026 16_42_46.jpg,flat_plate,1,M130,M130,1,train
+1130,images/20_04_2026 16_42_47.jpg,flat_plate,1,M130,M130,1,train
+1131,images/20_04_2026 16_42_48(1).jpg,flat_plate,1,M130,M130,1,train
+1132,images/20_04_2026 16_42_48.jpg,flat_plate,1,M130,M130,1,train
+1133,images/20_04_2026 16_42_49.jpg,flat_plate,1,M130,M130,1,train
+1134,images/20_04_2026 16_42_50.jpg,flat_plate,1,M130,M130,1,train
+1135,images/20_04_2026 16_42_51(1).jpg,flat_plate,1,M131,M131,1,train
+1136,images/20_04_2026 16_42_51.jpg,flat_plate,1,M131,M131,1,train
+1137,images/20_04_2026 16_42_52.jpg,flat_plate,1,M132,M132,1,train
+1138,images/20_04_2026 16_42_53.jpg,flat_plate,1,M131,M131,1,train
+1139,images/20_04_2026 16_42_54(1).jpg,flat_plate,1,M131,M131,1,train
+1140,images/20_04_2026 16_42_54.jpg,flat_plate,1,M131,M131,1,train
+1141,images/20_04_2026 16_42_55.jpg,flat_plate,1,M131,M131,1,train
+1142,images/20_04_2026 16_42_56.jpg,flat_plate,1,M131,M131,1,train
+1143,images/20_04_2026 16_42_57(1).jpg,flat_plate,1,M131,M131,1,train
+1144,images/20_04_2026 16_42_57.jpg,flat_plate,1,M131,M131,1,train
+1145,images/20_04_2026 16_42_58.jpg,flat_plate,1,M131,M131,1,train
+1146,images/20_04_2026 16_42_59.jpg,flat_plate,1,M133,M133,1,validation
+1147,images/20_04_2026 16_43_00.jpg,flat_plate,1,M133,M133,1,validation
+1148,images/20_04_2026 16_43_01(1).jpg,flat_plate,1,M134,M134,1,test
+1149,images/20_04_2026 16_43_01.jpg,flat_plate,1,M133,M133,1,validation
+1150,images/20_04_2026 16_43_02.jpg,flat_plate,1,M135,M135,1,test
+1151,images/20_04_2026 16_43_03.jpg,flat_plate,1,M136,M136,1,train
+1152,images/20_04_2026 16_43_04(1).jpg,flat_plate,1,M134,M134,1,test
+1153,images/20_04_2026 16_43_04.jpg,flat_plate,1,M136,M136,1,train
+1154,images/20_04_2026 16_43_05.jpg,flat_plate,1,M133,M133,1,validation
+1155,images/20_04_2026 16_43_06.jpg,flat_plate,1,M137,M137,1,test
+1156,images/20_04_2026 16_43_07(1).jpg,flat_plate,1,M137,M137,1,test
+1157,images/20_04_2026 16_43_07.jpg,flat_plate,1,M137,M137,1,test
+1158,images/20_04_2026 16_43_08.jpg,flat_plate,1,M137,M137,1,test
+1159,images/20_04_2026 16_43_09.jpg,flat_plate,1,M138,M138,1,train
+1160,images/20_04_2026 16_43_10.jpg,flat_plate,1,M138,M138,1,train
+1161,images/20_04_2026 16_43_11(1).jpg,flat_plate,1,M138,M138,1,train
+1162,images/20_04_2026 16_43_11.jpg,flat_plate,1,M138,M138,1,train
+1163,images/20_04_2026 16_43_12.jpg,flat_plate,1,M138,M138,1,train
+1165,images/20_04_2026 16_43_14(1).jpg,flat_plate,1,M138,M138,1,train
+1166,images/20_04_2026 16_43_14.jpg,flat_plate,1,M138,M138,1,train
+1167,images/20_04_2026 16_43_15.jpg,flat_plate,1,M138,M138,1,train
+1168,images/20_04_2026 16_43_16.jpg,flat_plate,1,M139,M139,1,test
+1169,images/20_04_2026 16_43_17(1).jpg,flat_plate,1,M140,M140,1,train
+1170,images/20_04_2026 16_43_17.jpg,flat_plate,1,M140,M140,1,train
+1171,images/20_04_2026 16_43_18.jpg,flat_plate,1,M140,M140,1,train
+1172,images/20_04_2026 16_43_19.jpg,flat_plate,1,M140,M140,1,train
+1173,images/20_04_2026 16_43_20(1).jpg,flat_plate,1,M140,M140,1,train
+1174,images/20_04_2026 16_43_20.jpg,flat_plate,1,M140,M140,1,train
+1175,images/20_04_2026 16_43_21.jpg,flat_plate,1,M140,M140,1,train
+1176,images/20_04_2026 16_43_22.jpg,flat_plate,1,M140,M140,1,train
+1177,images/20_04_2026 16_43_23.jpg,flat_plate,1,M140,M140,1,train
+1179,images/20_04_2026 19_28_55(2).jpg,pot,4,M142,M142,1,validation
+1180,images/20_04_2026 19_28_55(3).jpg,pot,4,M143,M143,1,test
+1181,images/20_04_2026 19_28_55.jpg,pot,4,M144,M144,1,test
+1182,images/20_04_2026 19_28_56(1).jpg,pot,4,M143,M143,1,test
+1184,images/20_04_2026 19_28_56.jpg,pot,4,M143,M143,1,test
+1185,images/20_04_2026 19_28_57(1).jpg,pot,4,M142,M142,1,validation
+1186,images/20_04_2026 19_28_57(2).jpg,mug,0,M145,M145,1,train
+1187,images/20_04_2026 19_28_57(3).jpg,mug,0,M145,M145,1,train
+1188,images/20_04_2026 19_28_57.jpg,pot,4,M143,M143,1,test
+1189,images/20_04_2026 19_28_58(1).jpg,mug,0,M146,M146,1,train
+1190,images/20_04_2026 19_28_58(2).jpg,mug,0,M146,M146,1,train
+1191,images/20_04_2026 19_28_58(3).jpg,mug,0,M146,M146,1,train
+1192,images/20_04_2026 19_28_58(4).jpg,mug,0,M145,M145,1,train
+1193,images/20_04_2026 19_28_58.jpg,mug,0,M146,M146,1,train
+1194,images/20_04_2026 19_28_59(1).jpg,mug,0,M145,M145,1,train
+1195,images/20_04_2026 19_28_59(2).jpg,flat_plate,1,M147,M147,1,validation
+1196,images/20_04_2026 19_28_59(3).jpg,flat_plate,1,M147,M147,1,validation
+1197,images/20_04_2026 19_28_59(4).jpg,flat_plate,1,M147,M147,1,validation
+1198,images/20_04_2026 19_28_59.jpg,mug,0,M145,M145,1,train
+1199,images/20_04_2026 19_29_00(1).jpg,flat_plate,1,M148,M148,1,validation
+1200,images/20_04_2026 19_29_00(2).jpg,flat_plate,1,M148,M148,1,validation
+1201,images/20_04_2026 19_29_00(3).jpg,bowl,3,M149,M149,1,train
+1202,images/20_04_2026 19_29_00(4).jpg,bowl,3,M149,M149,1,train
+1203,images/20_04_2026 19_29_00.jpg,flat_plate,1,M147,M147,1,validation
+1204,images/20_04_2026 19_29_01(1).jpg,bowl,3,M149,M149,1,train
+1205,images/20_04_2026 19_29_01(2).jpg,bowl,3,M149,M149,1,train
+1206,images/20_04_2026 19_29_01(3).jpg,bowl,3,M149,M149,1,train
+1207,images/20_04_2026 19_29_01.jpg,bowl,3,M149,M149,1,train
+1208,images/20_04_2026 19_29_41(1).jpg,bowl,3,M149,M149,1,train
+1210,images/20_04_2026 19_29_41.jpg,pot,4,M144,M144,1,test
+1212,images/21-20260412_162302.jpg,wine_glass,5,M150,M150,1,train
+1213,images/21-20260412_162306.jpg,wine_glass,5,M150,M150,1,train
+1214,images/21-20260412_162314.jpg,wine_glass,5,M150,M150,1,train
+1215,images/21-20260412_162317.jpg,wine_glass,5,M150,M150,1,train
+1216,images/21-20260412_162349.jpg,wine_glass,5,M150,M150,1,train
+1217,images/21-20260412_162353.jpg,wine_glass,5,M150,M150,1,train
+1218,images/21-22-23-20260412_162641.jpg,wine_glass,5,M151,M151,1,train
+1219,images/21-22-23-20260412_162644.jpg,wine_glass,5,M151,M151,1,train
+1220,images/22-20260412_162403.jpg,wine_glass,5,M152,M152,1,train
+1221,images/22-20260412_162407.jpg,wine_glass,5,M152,M152,1,train
+1222,images/22-20260412_162417.jpg,wine_glass,5,M152,M152,1,train
+1223,images/22-20260412_162420.jpg,wine_glass,5,M152,M152,1,train
+1224,images/22-20260412_162438.jpg,wine_glass,5,M152,M152,1,train
+1225,images/22-20260412_162442.jpg,wine_glass,5,M152,M152,1,train
+1226,images/22-23-20260412_162629.jpg,wine_glass,5,M153,M153,1,test
+1227,images/22-23-20260412_162633.jpg,wine_glass,5,M153,M153,1,test
+1228,images/23-20260412_162459.jpg,wine_glass,5,M154,M154,1,train
+1229,images/23-20260412_162503.jpg,wine_glass,5,M154,M154,1,train
+1230,images/23-20260412_162512.jpg,wine_glass,5,M154,M154,1,train
+1231,images/23-20260412_162516.jpg,wine_glass,5,M154,M154,1,train
+1232,images/23-20260412_162533.jpg,wine_glass,5,M154,M154,1,train
+1233,images/23-20260412_162537.jpg,wine_glass,5,M154,M154,1,train
+1234,images/24-20260411_151950.jpg,mug,0,M155,M155,1,train
+1235,images/24-20260411_151957.jpg,mug,0,M155,M155,1,train
+1236,images/24-20260411_152027.jpg,mug,0,M155,M155,1,train
+1237,images/24-20260411_152031.jpg,mug,0,M155,M155,1,train
+1238,images/24-20260411_152123.jpg,mug,0,M155,M155,1,train
+1239,images/24-20260411_152127.jpg,mug,0,M155,M155,1,train
+1240,images/24-25-26-27-29-30-20260411_153342.jpg,mug,0,M156,M156,1,validation
+1241,images/24-25-26-27-29-30-20260411_153402.jpg,mug,0,M156,M156,1,validation
+1242,images/24-25-27-29-30-20260411_153253.jpg,mug,0,M157,M157,1,test
+1243,images/24-25-27-29-30-20260411_153258.jpg,mug,0,M157,M157,1,test
+1244,images/24-25-27-30-20260411_153317.jpg,mug,0,M158,M158,1,train
+1245,images/24-25-27-30-20260411_153322.jpg,mug,0,M158,M158,1,train
+1246,images/25-20260411_152139.jpg,mug,0,M159,M159,1,train
+1247,images/25-20260411_152143.jpg,mug,0,M159,M159,1,train
+1248,images/25-20260411_152151.jpg,mug,0,M159,M159,1,train
+1249,images/25-20260411_152155.jpg,mug,0,M159,M159,1,train
+1250,images/25-20260411_152244.jpg,mug,0,M159,M159,1,train
+1251,images/25-20260411_152248.jpg,mug,0,M159,M159,1,train
+1252,images/25-27-29-30-20260411_153240.jpg,mug,0,M160,M160,1,train
+1253,images/25-27-29-30-20260411_153245.jpg,mug,0,M160,M160,1,train
+1254,images/26-20260411_152259.jpg,mug,0,M161,M161,1,train
+1255,images/26-20260411_152303.jpg,mug,0,M161,M161,1,train
+1256,images/26-20260411_152309.jpg,mug,0,M161,M161,1,train
+1257,images/26-20260411_152314.jpg,mug,0,M161,M161,1,train
+1258,images/26-20260411_152402.jpg,mug,0,M161,M161,1,train
+1259,images/26-20260411_152406.jpg,mug,0,M161,M161,1,train
+1260,images/26-28-20260411_153151.jpg,mug,0,M162,M162,1,train
+1261,images/26-28-20260411_153203.jpg,mug,0,M162,M162,1,train
+1262,images/27-20260411_152417.jpg,mug,0,M163,M163,1,train
+1263,images/27-20260411_152421.jpg,mug,0,M163,M163,1,train
+1264,images/27-20260411_152428.jpg,mug,0,M163,M163,1,train
+1265,images/27-20260411_152433.jpg,mug,0,M163,M163,1,train
+1266,images/27-20260411_152515.jpg,mug,0,M163,M163,1,train
+1267,images/27-20260411_152518.jpg,mug,0,M163,M163,1,train
+1268,images/27-29-30-31-20260411_153134.jpg,mug,0,M164,M164,1,validation
+1269,images/27-29-30-31-20260411_153138.jpg,mug,0,M164,M164,1,validation
+1270,images/27-29-31-20260411_153119.jpg,mug,0,M165,M165,1,test
+1271,images/27-29-31-20260411_153124.jpg,mug,0,M165,M165,1,test
+1272,images/28-20260411_152529.jpg,mug,0,M166,M166,1,train
+1273,images/28-20260411_152541.jpg,mug,0,M166,M166,1,train
+1274,images/28-20260411_152603.jpg,mug,0,M166,M166,1,train
+1275,images/28-20260411_152606.jpg,mug,0,M166,M166,1,train
+1276,images/28-20260411_152643.jpg,mug,0,M166,M166,1,train
+1277,images/28-20260411_152646.jpg,mug,0,M166,M166,1,train
+1278,images/28-31-20260411_153433.jpg,mug,0,M167,M167,1,validation
+1279,images/28-31-20260411_153442.jpg,mug,0,M167,M167,1,validation
+1280,images/29-20260411_152707.jpg,mug,0,M168,M168,1,train
+1281,images/29-20260411_152720.jpg,mug,0,M168,M168,1,train
+1282,images/29-20260411_152731.jpg,mug,0,M168,M168,1,train
+1283,images/29-20260411_152736.jpg,mug,0,M168,M168,1,train
+1284,images/29-20260411_152808.jpg,mug,0,M168,M168,1,train
+1285,images/29-20260411_152812.jpg,mug,0,M168,M168,1,train
+1286,images/3-20260408_153925.jpg,mug,0,M169,M169,1,train
+1287,images/3-20260408_154021.jpg,mug,0,M169,M169,1,train
+1288,images/3-20260408_154046.jpg,mug,0,M169,M169,1,train
+1289,images/3-20260408_154051.jpg,mug,0,M169,M169,1,train
+1290,images/3-20260408_191414.jpg,mug,0,M169,M169,1,train
+1291,images/3-20260408_191424.jpg,mug,0,M169,M169,1,train
+1292,images/3-4-20260408_191503.jpg,mug,0,M170,M170,1,test
+1293,images/3-4-20260408_191512.jpg,mug,0,M170,M170,1,test
+1294,images/3-4-20260408_191755.jpg,mug,0,M170,M170,1,test
+1295,images/3-4-20260408_191802.jpg,mug,0,M170,M170,1,test
+1296,images/30-20260411_152824.jpg,mug,0,M171,M171,1,train
+1297,images/30-20260411_152827.jpg,mug,0,M171,M171,1,train
+1298,images/30-20260411_152838.jpg,mug,0,M171,M171,1,train
+1299,images/30-20260411_152842.jpg,mug,0,M171,M171,1,train
+1300,images/30-20260411_152921.jpg,mug,0,M171,M171,1,train
+1301,images/30-20260411_152925.jpg,mug,0,M171,M171,1,train
+1302,images/31-20260411_152936.jpg,mug,0,M172,M172,1,train
+1303,images/31-20260411_152941.jpg,mug,0,M172,M172,1,train
+1304,images/31-20260411_152949.jpg,mug,0,M172,M172,1,train
+1305,images/31-20260411_152953.jpg,mug,0,M172,M172,1,train
+1306,images/31-20260411_153023.jpg,mug,0,M172,M172,1,train
+1307,images/31-20260411_153027.jpg,mug,0,M172,M172,1,train
+1308,images/32-20260412_115605.jpg,bowl,3,M173,M173,1,train
+1309,images/32-20260412_115609.jpg,bowl,3,M173,M173,1,train
+1310,images/32-20260412_115627.jpg,bowl,3,M173,M173,1,train
+1311,images/32-20260412_115631.jpg,bowl,3,M173,M173,1,train
+1312,images/32-20260412_115713.jpg,bowl,3,M173,M173,1,train
+1313,images/32-20260412_115718.jpg,bowl,3,M173,M173,1,train
+1314,images/32-33-36-37-38-39-40-20260412_121413.jpg,bowl,3,M174,M174,1,validation
+1315,images/32-33-36-37-38-39-40-20260412_121420.jpg,bowl,3,M174,M174,1,validation
+1316,images/32-33-37-20260412_121329.jpg,bowl,3,M175,M175,1,test
+1317,images/32-33-37-20260412_121350.jpg,bowl,3,M175,M175,1,test
+1318,images/32-33-38-20260412_121305.jpg,bowl,3,M176,M176,1,train
+1319,images/32-33-38-20260412_121314.jpg,bowl,3,M176,M176,1,train
+1320,images/33-20260412_115735.jpg,bowl,3,M177,M177,1,test
+1321,images/33-20260412_115739.jpg,bowl,3,M177,M177,1,test
+1322,images/33-20260412_115746.jpg,bowl,3,M177,M177,1,test
+1323,images/33-20260412_115751.jpg,bowl,3,M177,M177,1,test
+1324,images/33-20260412_115814.jpg,bowl,3,M177,M177,1,test
+1325,images/33-20260412_115818.jpg,bowl,3,M177,M177,1,test
+1326,images/33-34-20260412_121241.jpg,bowl,3,M178,M178,1,validation
+1327,images/33-34-38-20260412_121213.jpg,bowl,3,M178,M178,1,validation
+1328,images/33-35-20260412_121442.jpg,bowl,3,M179,M179,1,validation
+1329,images/33-35-20260412_121448.jpg,bowl,3,M179,M179,1,validation
+1330,images/34-20260412_115836.jpg,bowl,3,M180,M180,1,train
+1331,images/34-20260412_115841.jpg,bowl,3,M180,M180,1,train
+1332,images/34-20260412_115848.jpg,bowl,3,M180,M180,1,train
+1333,images/34-20260412_115854.jpg,bowl,3,M180,M180,1,train
+1334,images/34-20260412_115914.jpg,bowl,3,M180,M180,1,train
+1335,images/34-20260412_115920.jpg,bowl,3,M180,M180,1,train
+1336,images/34-35-36-38-20260412_121144.jpg,bowl,3,M181,M181,1,test
+1337,images/34-35-39-20260412_121132.jpg,bowl,3,M182,M182,1,train
+1338,images/35-20260412_115937.jpg,bowl,3,M183,M183,1,train
+1339,images/35-20260412_115943.jpg,bowl,3,M183,M183,1,train
+1340,images/35-20260412_115951.jpg,bowl,3,M183,M183,1,train
+1341,images/35-20260412_115956.jpg,bowl,3,M183,M183,1,train
+1342,images/35-20260412_120018.jpg,bowl,3,M183,M183,1,train
+1343,images/35-20260412_120022.jpg,bowl,3,M183,M183,1,train
+1344,images/35-37-39-20260412_121114.jpg,bowl,3,M184,M184,1,validation
+1345,images/36-20260412_120040.jpg,bowl,3,M185,M185,1,train
+1346,images/36-20260412_120045.jpg,bowl,3,M185,M185,1,train
+1347,images/36-20260412_120051.jpg,bowl,3,M185,M185,1,train
+1348,images/36-20260412_120057.jpg,bowl,3,M185,M185,1,train
+1349,images/36-20260412_120124.jpg,bowl,3,M185,M185,1,train
+1350,images/36-20260412_120128.jpg,bowl,3,M185,M185,1,train
+1351,images/36-37-39-20260412_121101.jpg,bowl,3,M186,M186,1,train
+1352,images/36-39-40-20260412_121004.jpg,bowl,3,M187,M187,1,train
+1353,images/36-39-40-20260412_121035.jpg,bowl,3,M188,M188,1,train
+1354,images/36-39-40-20260412_121041.jpg,bowl,3,M188,M188,1,train
+1355,images/37-20260412_120143.jpg,bowl,3,M189,M189,1,train
+1356,images/37-20260412_120149.jpg,bowl,3,M189,M189,1,train
+1357,images/37-20260412_120156.jpg,bowl,3,M189,M189,1,train
+1358,images/37-20260412_120201.jpg,bowl,3,M189,M189,1,train
+1359,images/37-20260412_120226.jpg,bowl,3,M189,M189,1,train
+1360,images/37-20260412_120231.jpg,bowl,3,M189,M189,1,train
+1361,images/38-20260412_120250.jpg,bowl,3,M190,M190,1,validation
+1362,images/38-20260412_120255.jpg,bowl,3,M190,M190,1,validation
+1363,images/38-20260412_120306.jpg,bowl,3,M190,M190,1,validation
+1364,images/38-20260412_120311.jpg,bowl,3,M190,M190,1,validation
+1365,images/38-20260412_120335.jpg,bowl,3,M190,M190,1,validation
+1366,images/38-20260412_120340.jpg,bowl,3,M190,M190,1,validation
+1367,images/38-39-40-20260412_120945.jpg,bowl,3,M191,M191,1,validation
+1368,images/39-20260412_120402.jpg,bowl,3,M192,M192,1,train
+1369,images/39-20260412_120407.jpg,bowl,3,M192,M192,1,train
+1370,images/39-20260412_120419.jpg,bowl,3,M192,M192,1,train
+1371,images/39-20260412_120425.jpg,bowl,3,M192,M192,1,train
+1372,images/39-20260412_120500.jpg,bowl,3,M192,M192,1,train
+1373,images/39-20260412_120504.jpg,bowl,3,M192,M192,1,train
+1374,images/4-20260408_191706.jpg,mug,0,M193,M193,1,train
+1375,images/4-20260408_191713.jpg,mug,0,M193,M193,1,train
+1376,images/4-20260408_191817.jpg,mug,0,M193,M193,1,train
+1377,images/4-20260408_191823.jpg,mug,0,M193,M193,1,train
+1378,images/4-20260408_191917.jpg,mug,0,M193,M193,1,train
+1379,images/4-20260408_191922.jpg,mug,0,M193,M193,1,train
+1380,images/40-20260412_120523.jpg,bowl,3,M194,M194,1,train
+1381,images/40-20260412_120529.jpg,bowl,3,M194,M194,1,train
+1382,images/40-20260412_120538.jpg,bowl,3,M194,M194,1,train
+1383,images/40-20260412_120544.jpg,bowl,3,M194,M194,1,train
+1384,images/40-20260412_120609.jpg,bowl,3,M194,M194,1,train
+1385,images/40-20260412_120614.jpg,bowl,3,M194,M194,1,train
+1386,images/41-20260412_122107.jpg,saucepan,6,M195,M195,1,train
+1387,images/41-20260412_122113.jpg,saucepan,6,M195,M195,1,train
+1388,images/41-20260412_122118.jpg,saucepan,6,M195,M195,1,train
+1389,images/41-20260412_122124.jpg,saucepan,6,M195,M195,1,train
+1390,images/41-20260412_122129.jpg,saucepan,6,M195,M195,1,train
+1391,images/41-20260412_122134.jpg,saucepan,6,M195,M195,1,train
+1392,images/41-20260412_122138.jpg,saucepan,6,M195,M195,1,train
+1393,images/41-20260412_122142.jpg,saucepan,6,M195,M195,1,train
+1394,images/41-20260412_122149.jpg,saucepan,6,M195,M195,1,train
+1395,images/41-20260412_122222.jpg,saucepan,6,M195,M195,1,train
+1396,images/41-20260412_122322.jpg,saucepan,6,M195,M195,1,train
+1397,images/41-20260412_122329.jpg,saucepan,6,M195,M195,1,train
+1398,images/41-20260412_122336.jpg,saucepan,6,M195,M195,1,train
+1399,images/41-20260412_122341.jpg,saucepan,6,M195,M195,1,train
+1400,images/41-20260412_122348.jpg,saucepan,6,M195,M195,1,train
+1401,images/41-20260412_122353.jpg,saucepan,6,M195,M195,1,train
+1402,images/41-20260412_122356.jpg,saucepan,6,M195,M195,1,train
+1403,images/41-20260412_122403.jpg,saucepan,6,M195,M195,1,train
+1404,images/41-20260412_122415.jpg,saucepan,6,M195,M195,1,train
+1405,images/41-20260412_122445.jpg,saucepan,6,M195,M195,1,train
+1406,images/41-20260412_122528.jpg,saucepan,6,M195,M195,1,train
+1407,images/41-20260412_122534.jpg,saucepan,6,M195,M195,1,train
+1408,images/41-20260412_122540.jpg,saucepan,6,M195,M195,1,train
+1409,images/41-20260412_122543.jpg,saucepan,6,M195,M195,1,train
+1410,images/41-20260412_122548.jpg,saucepan,6,M195,M195,1,train
+1411,images/41-20260412_122553.jpg,saucepan,6,M195,M195,1,train
+1412,images/41-20260412_122559.jpg,saucepan,6,M195,M195,1,train
+1413,images/41-20260412_122610.jpg,saucepan,6,M195,M195,1,train
+1414,images/41-20260412_122615.jpg,saucepan,6,M195,M195,1,train
+1415,images/41-20260412_122648.jpg,saucepan,6,M195,M195,1,train
+1416,images/42-20260411_163756.jpg,soup_plate,2,M196,M196,1,train
+1417,images/42-20260411_163800.jpg,soup_plate,2,M196,M196,1,train
+1418,images/42-20260411_163805.jpg,soup_plate,2,M196,M196,1,train
+1419,images/42-20260411_163818.jpg,soup_plate,2,M196,M196,1,train
+1420,images/42-20260411_163823.jpg,soup_plate,2,M196,M196,1,train
+1421,images/42-20260411_163829.jpg,soup_plate,2,M196,M196,1,train
+1422,images/42-20260411_163853.jpg,soup_plate,2,M196,M196,1,train
+1423,images/42-20260411_163858.jpg,soup_plate,2,M196,M196,1,train
+1424,images/42-20260411_163905.jpg,soup_plate,2,M196,M196,1,train
+1425,images/42-43-44-45-20260411_164654.jpg,soup_plate,2,M197,M197,1,test
+1426,images/42-43-44-45-20260411_164720.jpg,soup_plate,2,M197,M197,1,test
+1427,images/42-44-20260411_164649.jpg,soup_plate,2,M197,M197,1,test
+1428,images/42-44-45-20260411_164533.jpg,soup_plate,2,M198,M198,1,validation
+1429,images/42-44-45-20260411_164542.jpg,soup_plate,2,M198,M198,1,validation
+1430,images/42-44-45-20260411_164551.jpg,soup_plate,2,M198,M198,1,validation
+1431,images/42-45-20260411_164512.jpg,soup_plate,2,M199,M199,1,train
+1432,images/42-45-20260411_164517.jpg,soup_plate,2,M199,M199,1,train
+1433,images/42-45-20260411_164522.jpg,soup_plate,2,M199,M199,1,train
+1434,images/43-20260411_163927.jpg,soup_plate,2,M200,M200,1,train
+1435,images/43-20260411_163931.jpg,soup_plate,2,M200,M200,1,train
+1436,images/43-20260411_163938.jpg,soup_plate,2,M200,M200,1,train
+1437,images/43-20260411_163958.jpg,soup_plate,2,M200,M200,1,train
+1438,images/43-20260411_164001.jpg,soup_plate,2,M200,M200,1,train
+1439,images/43-20260411_164007.jpg,soup_plate,2,M200,M200,1,train
+1440,images/43-20260411_164019.jpg,soup_plate,2,M200,M200,1,train
+1441,images/43-20260411_164023.jpg,soup_plate,2,M200,M200,1,train
+1442,images/43-20260411_164040.jpg,soup_plate,2,M200,M200,1,train
+1443,images/43-45-20260411_164610.jpg,soup_plate,2,M201,M201,1,test
+1444,images/43-45-20260411_164615.jpg,soup_plate,2,M201,M201,1,test
+1445,images/43-45-20260411_164623.jpg,soup_plate,2,M201,M201,1,test
+1446,images/44-20260411_164203.jpg,soup_plate,2,M202,M202,1,train
+1447,images/44-20260411_164209.jpg,soup_plate,2,M202,M202,1,train
+1448,images/44-20260411_164214.jpg,soup_plate,2,M202,M202,1,train
+1449,images/44-20260411_164224.jpg,soup_plate,2,M202,M202,1,train
+1450,images/44-20260411_164228.jpg,soup_plate,2,M202,M202,1,train
+1451,images/44-20260411_164233.jpg,soup_plate,2,M202,M202,1,train
+1452,images/44-20260411_164247.jpg,soup_plate,2,M202,M202,1,train
+1453,images/44-20260411_164251.jpg,soup_plate,2,M202,M202,1,train
+1454,images/44-20260411_164257.jpg,soup_plate,2,M202,M202,1,train
+1455,images/45-20260411_164316.jpg,soup_plate,2,M200,M200,1,train
+1456,images/45-20260411_164322.jpg,soup_plate,2,M200,M200,1,train
+1457,images/45-20260411_164326.jpg,soup_plate,2,M200,M200,1,train
+1458,images/45-20260411_164334.jpg,soup_plate,2,M200,M200,1,train
+1459,images/45-20260411_164338.jpg,soup_plate,2,M200,M200,1,train
+1460,images/45-20260411_164342.jpg,soup_plate,2,M200,M200,1,train
+1461,images/45-20260411_164403.jpg,soup_plate,2,M200,M200,1,train
+1462,images/45-20260411_164408.jpg,soup_plate,2,M200,M200,1,train
+1463,images/45-20260411_164416.jpg,soup_plate,2,M200,M200,1,train
+1464,images/46-20260411_161549.jpg,flat_plate,1,M203,M203,1,train
+1465,images/46-20260411_161555.jpg,flat_plate,1,M203,M203,1,train
+1466,images/46-20260411_161605.jpg,flat_plate,1,M203,M203,1,train
+1467,images/46-20260411_161636.jpg,flat_plate,1,M203,M203,1,train
+1468,images/46-20260411_161643.jpg,flat_plate,1,M203,M203,1,train
+1469,images/46-20260411_161653.jpg,flat_plate,1,M203,M203,1,train
+1470,images/46-20260411_161802.jpg,flat_plate,1,M203,M203,1,train
+1471,images/46-20260411_161807.jpg,flat_plate,1,M203,M203,1,train
+1472,images/46-20260411_162003.jpg,flat_plate,1,M203,M203,1,train
+1473,images/46-49-20260411_163044.jpg,flat_plate,1,M204,M204,1,test
+1474,images/46-49-20260411_163050.jpg,flat_plate,1,M204,M204,1,test
+1475,images/46-49-20260411_163058.jpg,flat_plate,1,M204,M204,1,test
+1476,images/46-50-20260411_162925.jpg,flat_plate,1,M205,M205,1,train
+1477,images/46-50-20260411_162931.jpg,flat_plate,1,M205,M205,1,train
+1478,images/46-50-20260411_162937.jpg,flat_plate,1,M205,M205,1,train
+1479,images/47-20260411_162045.jpg,flat_plate,1,M206,M206,1,train
+1480,images/47-20260411_162049.jpg,flat_plate,1,M206,M206,1,train
+1481,images/47-20260411_162057.jpg,flat_plate,1,M206,M206,1,train
+1482,images/47-20260411_162107.jpg,flat_plate,1,M206,M206,1,train
+1483,images/47-20260411_162112.jpg,flat_plate,1,M206,M206,1,train
+1484,images/47-20260411_162120.jpg,flat_plate,1,M206,M206,1,train
+1485,images/47-20260411_162138.jpg,flat_plate,1,M206,M206,1,train
+1486,images/47-20260411_162143.jpg,flat_plate,1,M206,M206,1,train
+1487,images/47-20260411_162150.jpg,flat_plate,1,M206,M206,1,train
+1488,images/47-49-50-20260411_162844.jpg,flat_plate,1,M207,M207,1,train
+1489,images/47-49-50-20260411_162855.jpg,flat_plate,1,M207,M207,1,train
+1490,images/47-49-50-20260411_162903.jpg,flat_plate,1,M207,M207,1,train
+1491,images/47-49-50-20260411_163127.jpg,flat_plate,1,M207,M207,1,train
+1492,images/47-49-50-20260411_163131.jpg,flat_plate,1,M207,M207,1,train
+1493,images/47-49-50-20260411_163137.jpg,flat_plate,1,M207,M207,1,train
+1494,images/48-20260411_162211.jpg,flat_plate,1,M208,M208,1,train
+1495,images/48-20260411_162217.jpg,flat_plate,1,M208,M208,1,train
+1496,images/48-20260411_162224.jpg,flat_plate,1,M208,M208,1,train
+1497,images/48-20260411_162236.jpg,flat_plate,1,M208,M208,1,train
+1498,images/48-20260411_162241.jpg,flat_plate,1,M208,M208,1,train
+1499,images/48-20260411_162248.jpg,flat_plate,1,M208,M208,1,train
+1500,images/48-20260411_162306.jpg,flat_plate,1,M208,M208,1,train
+1501,images/48-20260411_162311.jpg,flat_plate,1,A1,A1,1,validation
+1502,images/48-20260411_162321.jpg,flat_plate,1,A1,A1,1,validation
+1503,images/48-49-50-20260411_162757.jpg,flat_plate,1,A1001,A1001,1,validation
+1504,images/48-49-50-20260411_162806.jpg,flat_plate,1,A1002,A1002,1,test
+1505,images/48-49-50-20260411_162816.jpg,flat_plate,1,A1003,A1003,1,validation
+1506,images/49-20260411_162343.jpg,flat_plate,1,A2,A2,1,train
+1507,images/49-20260411_162348.jpg,flat_plate,1,A2,A2,1,train
+1508,images/49-20260411_162355.jpg,flat_plate,1,A2,A2,1,train
+1509,images/49-20260411_162412.jpg,flat_plate,1,A2,A2,1,train
+1510,images/49-20260411_162417.jpg,flat_plate,1,A2,A2,1,train
+1511,images/49-20260411_162424.jpg,flat_plate,1,A2,A2,1,train
+1512,images/49-20260411_162446.jpg,flat_plate,1,A2,A2,1,train
+1513,images/49-20260411_162451.jpg,flat_plate,1,A2,A2,1,train
+1514,images/49-20260411_162500.jpg,flat_plate,1,A2,A2,1,train
+1515,images/5-20260408_193857.jpg,bowl,3,A3,A3,1,train
+1516,images/5-20260408_193902.jpg,bowl,3,A3,A3,1,train
+1517,images/5-20260408_193912.jpg,bowl,3,A3,A3,1,train
+1518,images/5-20260408_193917.jpg,bowl,3,A3,A3,1,train
+1519,images/5-20260409_093615.jpg,bowl,3,A3,A3,1,train
+1520,images/5-20260409_093706.jpg,bowl,3,A3,A3,1,train
+1521,images/50-20260411_162533.jpg,flat_plate,1,A4,A4,1,train
+1522,images/50-20260411_162537.jpg,flat_plate,1,A4,A4,1,train
+1523,images/50-20260411_162544.jpg,flat_plate,1,A4,A4,1,train
+1524,images/50-20260411_162552.jpg,flat_plate,1,A4,A4,1,train
+1525,images/50-20260411_162555.jpg,flat_plate,1,A4,A4,1,train
+1526,images/50-20260411_162606.jpg,flat_plate,1,A4,A4,1,train
+1527,images/50-20260411_162622.jpg,flat_plate,1,A4,A4,1,train
+1528,images/50-20260411_162628.jpg,flat_plate,1,A4,A4,1,train
+1529,images/50-20260411_162641.jpg,flat_plate,1,A4,A4,1,train
+1530,images/6-20260408_155235.jpg,soup_plate,2,A5,A5,1,train
+1531,images/6-20260408_155248.jpg,soup_plate,2,A5,A5,1,train
+1532,images/6-20260408_192457.jpg,soup_plate,2,A5,A5,1,train
+1533,images/6-20260408_192502.jpg,soup_plate,2,A5,A5,1,train
+1534,images/6-7-20260408_192035.jpg,soup_plate,2,A1004,A1004,1,train
+1535,images/6-7-20260408_192045.jpg,soup_plate,2,A1005,A1005,1,train
+1536,images/7-20260408_155335.jpg,soup_plate,2,A7,A7,1,validation
+1537,images/7-20260408_155359.jpg,soup_plate,2,A7,A7,1,validation
+1538,images/7-20260408_192538.jpg,soup_plate,2,A7,A7,1,validation
+1539,images/7-20260408_192549.jpg,soup_plate,2,A7,A7,1,validation
+1540,images/8-20260408_193101.jpg,flat_plate,1,A5,A5,1,train
+1541,images/8-20260408_193108.jpg,flat_plate,1,A5,A5,1,train
+1542,images/8-20260408_193118.jpg,flat_plate,1,A5,A5,1,train
+1543,images/8-20260408_193124.jpg,flat_plate,1,A5,A5,1,train
+1544,images/8-20260413_202952.jpg,flat_plate,1,A5,A5,1,train
+1545,images/8-9-20260408_193016.jpg,flat_plate,1,A1007,A1007,1,test
+1546,images/8-9-20260408_193024.jpg,flat_plate,1,A1008,A1008,1,validation
+1547,images/9-20260408_193144.jpg,flat_plate,1,A8,A8,1,train
+1548,images/9-20260408_193150.jpg,flat_plate,1,A8,A8,1,train
+1549,images/9-20260408_193201.jpg,flat_plate,1,A8,A8,1,train
+1550,images/9-20260408_193206.jpg,flat_plate,1,A8,A8,1,train
+1551,images/IMG_20260421_191415413.jpg,saucepan,6,A9,A9,1,train
+1552,images/IMG_20260421_191437812.jpg,saucepan,6,A9,A9,1,train
+1553,images/IMG_20260421_191455391(1).jpg,saucepan,6,A9,A9,1,train
+1554,images/IMG_20260421_191455391.jpg,saucepan,6,A9,A9,1,train
+1555,images/IMG_20260421_191508743(1).jpg,saucepan,6,A9,A9,1,train
+1556,images/IMG_20260421_191508743.jpg,saucepan,6,A9,A9,1,train
+1557,images/IMG_20260421_191526216(1).jpg,saucepan,6,A9,A9,1,train
+1558,images/IMG_20260421_191526216.jpg,saucepan,6,A9,A9,1,train
+1559,images/IMG_20260421_191530853(1).jpg,saucepan,6,A9,A9,1,train
+1560,images/IMG_20260421_191530853.jpg,saucepan,6,A9,A9,1,train
+1561,images/IMG_20260421_191537956(1).jpg,saucepan,6,A9,A9,1,train
+1562,images/IMG_20260421_191537956.jpg,saucepan,6,A9,A9,1,train
+1563,images/IMG_20260421_191603221(1).jpg,saucepan,6,A9,A9,1,train
+1564,images/IMG_20260421_191603221.jpg,saucepan,6,A9,A9,1,train
+1565,images/IMG_20260421_191616994(1).jpg,saucepan,6,A9,A9,1,train
+1566,images/IMG_20260421_191616994.jpg,saucepan,6,A9,A9,1,train
+1567,images/IMG_20260421_191622929(1).jpg,saucepan,6,A9,A9,1,train
+1568,images/IMG_20260421_191622929.jpg,saucepan,6,A9,A9,1,train
+1569,images/IMG_20260421_191626798(1).jpg,saucepan,6,A9,A9,1,train
+1570,images/IMG_20260421_191626798.jpg,saucepan,6,A9,A9,1,train
+1571,images/IMG_20260421_191637937(1).jpg,saucepan,6,A9,A9,1,train
+1572,images/IMG_20260421_191637937.jpg,saucepan,6,A9,A9,1,train
+1573,images/IMG_20260421_191647806(1).jpg,saucepan,6,A9,A9,1,train
+1574,images/IMG_20260421_191647806.jpg,saucepan,6,A9,A9,1,train
+1575,images/IMG_20260421_191915821.jpg,saucepan,6,A10,A10,1,train
+1576,images/IMG_20260421_191919419.jpg,saucepan,6,A10,A10,1,train
+1577,images/IMG_20260421_191929624.jpg,saucepan,6,A10,A10,1,train
+1578,images/IMG_20260421_191935027.jpg,saucepan,6,A10,A10,1,train
+1579,images/IMG_20260421_191941095.jpg,saucepan,6,A10,A10,1,train
+1580,images/IMG_20260421_191946230.jpg,saucepan,6,A10,A10,1,train
+1581,images/IMG_20260421_191956535.jpg,saucepan,6,A10,A10,1,train
+1582,images/IMG_20260421_192001403.jpg,saucepan,6,A10,A10,1,train
+1583,images/IMG_20260421_192005338.jpg,saucepan,6,A10,A10,1,train
+1584,images/IMG_20260421_192009941.jpg,saucepan,6,A10,A10,1,train
+1585,images/IMG_20260421_192014941.jpg,saucepan,6,A10,A10,1,train
+1586,images/IMG_20260421_192038884.jpg,saucepan,6,A10,A10,1,train
+1587,images/IMG_20260421_192041389.jpg,saucepan,6,A10,A10,1,train
+1588,images/IMG_20260421_192045190.jpg,saucepan,6,A10,A10,1,train
+1589,images/IMG_20260421_192049656.jpg,saucepan,6,A10,A10,1,train
+1590,images/IMG_20260421_192054492.jpg,saucepan,6,A10,A10,1,train
+1591,images/IMG_20260421_192113665.jpg,saucepan,6,A1010,A1010,1,validation
+1592,images/IMG_20260421_192119067.jpg,saucepan,6,A1011,A1011,1,train
+1593,images/IMG_20260421_192122672.jpg,saucepan,6,A1012,A1012,1,test
+1594,images/IMG_20260421_192126738.jpg,saucepan,6,A1013,A1013,1,train
+1595,images/IMG_20260421_192136408.jpg,saucepan,6,A1014,A1014,1,train
+1596,images/IMG_20260421_192542866.jpg,pot,4,A11,A11,1,train
+1597,images/IMG_20260421_192549437.jpg,pot,4,A11,A11,1,train
+1598,images/IMG_20260421_192553337.jpg,pot,4,A11,A11,1,train
+1599,images/IMG_20260421_192558305.jpg,pot,4,A11,A11,1,train
+1600,images/IMG_20260421_192620983.jpg,pot,4,A11,A11,1,train
+1601,images/IMG_20260421_192626485.jpg,pot,4,A11,A11,1,train
+1602,images/IMG_20260421_192630019.jpg,pot,4,A11,A11,1,train
+1603,images/IMG_20260421_192650831.jpg,pot,4,A11,A11,1,train
+1604,images/IMG_20260421_192654533.jpg,pot,4,A11,A11,1,train
+1605,images/IMG_20260421_192659538.jpg,pot,4,A11,A11,1,train
+1606,images/IMG_20260421_192818555.jpg,pot,4,A12,A12,1,train
+1607,images/IMG_20260421_192823689.jpg,pot,4,A12,A12,1,train
+1608,images/IMG_20260421_192826957.jpg,pot,4,A12,A12,1,train
+1609,images/IMG_20260421_192835461.jpg,pot,4,A12,A12,1,train
+1610,images/IMG_20260421_192849235.jpg,pot,4,A12,A12,1,train
+1611,images/IMG_20260421_192852434.jpg,pot,4,A12,A12,1,train
+1612,images/IMG_20260421_192933322.jpg,pot,4,A13,A13,1,train
+1613,images/IMG_20260421_192939126.jpg,pot,4,A13,A13,1,train
+1614,images/IMG_20260421_192944795.jpg,pot,4,A13,A13,1,train
+1615,images/IMG_20260421_192950129.jpg,pot,4,A13,A13,1,train
+1616,images/IMG_20260421_192954730.jpg,pot,4,A13,A13,1,train
+1617,images/IMG_20260421_193008735.jpg,pot,4,A13,A13,1,train
+1618,images/IMG_20260421_193012938.jpg,pot,4,A13,A13,1,train
+1619,images/IMG_20260421_193105473.jpg,pot,4,A14,A14,1,train
+1620,images/IMG_20260421_193109843.jpg,pot,4,A14,A14,1,train
+1621,images/IMG_20260421_193114645.jpg,pot,4,A14,A14,1,train
+1622,images/IMG_20260421_193118812.jpg,pot,4,A14,A14,1,train
+1623,images/IMG_20260421_193126683.jpg,pot,4,A14,A14,1,train
+1624,images/IMG_20260421_193129883.jpg,pot,4,A14,A14,1,train
+1625,images/IMG_20260421_193149691.jpg,pot,4,A14,A14,1,train
+1626,images/IMG_20260421_193154626.jpg,pot,4,A14,A14,1,train
+1627,images/IMG_20260421_193254599.jpg,pot,4,A1020,A1020,1,test
+1628,images/IMG_20260421_193259602.jpg,pot,4,A1021,A1021,1,validation
+1629,images/IMG_20260421_193304037.jpg,pot,4,A1022,A1022,1,validation
+1630,images/IMG_20260421_194205025.jpg,pot,4,A15,A15,1,train
+1631,images/IMG_20260421_194207993.jpg,pot,4,A15,A15,1,train
+1632,images/IMG_20260421_194212598.jpg,pot,4,A15,A15,1,train
+1633,images/IMG_20260421_194217266.jpg,pot,4,A15,A15,1,train
+1634,images/IMG_20260421_194229475.jpg,pot,4,A15,A15,1,train
+1635,images/IMG_20260421_194235311.jpg,pot,4,A15,A15,1,train
+1636,images/IMG_20260421_194253518.jpg,pot,4,A15,A15,1,train
+1637,images/IMG_20260421_194258321.jpg,pot,4,A15,A15,1,train
+1638,images/IMG_20260421_194428480.jpg,bowl,3,A1023,A1023,1,test
+1639,images/IMG_20260421_194432949.jpg,bowl,3,A1024,A1024,1,test
+1640,images/IMG_20260421_194438585.jpg,bowl,3,A1025,A1025,1,train
+1641,images/IMG_20260421_194535032.jpg,bowl,3,A16,A16,1,train
+1642,images/IMG_20260421_194538834.jpg,bowl,3,A16,A16,1,train
+1643,images/IMG_20260421_194543203.jpg,bowl,3,A16,A16,1,train
+1644,images/IMG_20260421_194547637.jpg,bowl,3,A16,A16,1,train
+1645,images/IMG_20260421_194607712.jpg,bowl,3,A16,A16,1,train
+1646,images/IMG_20260421_194611614.jpg,bowl,3,A16,A16,1,train
+1647,images/IMG_20260421_194616415.jpg,bowl,3,A16,A16,1,train
+1648,images/IMG_20260421_194622918.jpg,bowl,3,A16,A16,1,train
+1649,images/IMG_20260421_194625854.jpg,bowl,3,A16,A16,1,train
+1650,images/IMG_20260421_194658228.jpg,bowl,3,A17,A17,1,train
+1651,images/IMG_20260421_194702231.jpg,bowl,3,A17,A17,1,train
+1652,images/IMG_20260421_194706897.jpg,bowl,3,A17,A17,1,train
+1653,images/IMG_20260421_194713367.jpg,bowl,3,A17,A17,1,train
+1654,images/IMG_20260421_194717003.jpg,bowl,3,A17,A17,1,train
+1655,images/IMG_20260421_194726104.jpg,bowl,3,A17,A17,1,train
+1656,images/IMG_20260421_194728711.jpg,bowl,3,A17,A17,1,train
+1657,images/IMG_20260421_194731877.jpg,bowl,3,A17,A17,1,train
+1658,images/IMG_20260421_194759502.jpg,bowl,3,A18,A18,1,train
+1659,images/IMG_20260421_194802906.jpg,bowl,3,A18,A18,1,train
+1660,images/IMG_20260421_194808105.jpg,bowl,3,A18,A18,1,train
+1661,images/IMG_20260421_194811006.jpg,bowl,3,A18,A18,1,train
+1662,images/IMG_20260421_194816477.jpg,bowl,3,A18,A18,1,train
+1663,images/IMG_20260421_194822110.jpg,bowl,3,A18,A18,1,train
+1664,images/IMG_20260421_194837016.jpg,bowl,3,A18,A18,1,train
+1665,images/IMG_20260421_194840017.jpg,bowl,3,A18,A18,1,train
+1666,images/IMG_20260421_194843488.jpg,bowl,3,A18,A18,1,train
+1667,images/IMG_20260421_194923472.jpg,bowl,3,A19,A19,1,train
+1668,images/IMG_20260421_194926472.jpg,bowl,3,A19,A19,1,train
+1669,images/IMG_20260421_194929974.jpg,bowl,3,A19,A19,1,train
+1670,images/IMG_20260421_194935277.jpg,bowl,3,A19,A19,1,train
+1671,images/IMG_20260421_194939245.jpg,bowl,3,A19,A19,1,train
+1672,images/IMG_20260421_194952250.jpg,bowl,3,A19,A19,1,train
+1673,images/IMG_20260421_194955151.jpg,bowl,3,A19,A19,1,train
+1674,images/IMG_20260421_194959186.jpg,bowl,3,A19,A19,1,train
+1675,images/IMG_20260421_195026995.jpg,bowl,3,A20,A20,1,train
+1676,images/IMG_20260421_195030792.jpg,bowl,3,A20,A20,1,train
+1677,images/IMG_20260421_195034398.jpg,bowl,3,A20,A20,1,train
+1678,images/IMG_20260421_195042167.jpg,bowl,3,A20,A20,1,train
+1679,images/IMG_20260421_195047770.jpg,bowl,3,A20,A20,1,train
+1680,images/IMG_20260421_195103753.jpg,bowl,3,A20,A20,1,train
+1681,images/IMG_20260421_195107054.jpg,bowl,3,A20,A20,1,train
+1682,images/IMG_20260421_195111591.jpg,bowl,3,A20,A20,1,train
+1683,images/IMG_20260421_195148747.jpg,bowl,3,A21,A21,1,train
+1684,images/IMG_20260421_195151615.jpg,bowl,3,A21,A21,1,train
+1685,images/IMG_20260421_195155083.jpg,bowl,3,A21,A21,1,train
+1686,images/IMG_20260421_195157719.jpg,bowl,3,A21,A21,1,train
+1687,images/IMG_20260421_195202319.jpg,bowl,3,A21,A21,1,train
+1688,images/IMG_20260421_195205720.jpg,bowl,3,A21,A21,1,train
+1689,images/IMG_20260421_195217868.jpg,bowl,3,A21,A21,1,train
+1690,images/IMG_20260421_195220699.jpg,bowl,3,A21,A21,1,train
+1691,images/IMG_20260421_195223967.jpg,bowl,3,A21,A21,1,train
+1692,images/IMG_20260421_195228069.jpg,bowl,3,A21,A21,1,train
+1693,images/IMG_20260421_195252534.jpg,bowl,3,A22,A22,1,train
+1694,images/IMG_20260421_195255501.jpg,bowl,3,A22,A22,1,train
+1695,images/IMG_20260421_195259171.jpg,bowl,3,A22,A22,1,train
+1696,images/IMG_20260421_195304905.jpg,bowl,3,A22,A22,1,train
+1697,images/IMG_20260421_195308375.jpg,bowl,3,A22,A22,1,train
+1698,images/IMG_20260421_195321226.jpg,bowl,3,A22,A22,1,train
+1699,images/IMG_20260421_195324892.jpg,bowl,3,A22,A22,1,train
+1700,images/IMG_20260421_195402384.jpg,mug,0,A23,A23,1,train
+1701,images/IMG_20260421_195407120.jpg,mug,0,A23,A23,1,train
+1702,images/IMG_20260421_195410219.jpg,mug,0,A23,A23,1,train
+1703,images/IMG_20260421_195418089.jpg,mug,0,A23,A23,1,train
+1704,images/IMG_20260421_195423091.jpg,mug,0,A23,A23,1,train
+1705,images/IMG_20260421_195428397.jpg,mug,0,A23,A23,1,train
+1706,images/IMG_20260421_195431597.jpg,mug,0,A23,A23,1,train
+1707,images/IMG_20260421_195446014.jpg,mug,0,A23,A23,1,train
+1708,images/IMG_20260421_195449349.jpg,mug,0,A23,A23,1,train
+1709,images/IMG_20260421_195516549.jpg,mug,0,A24,A24,1,train
+1710,images/IMG_20260421_195519585.jpg,mug,0,A24,A24,1,train
+1711,images/IMG_20260421_195523187.jpg,mug,0,A24,A24,1,train
+1712,images/IMG_20260421_195528788.jpg,mug,0,A24,A24,1,train
+1713,images/IMG_20260421_195534258.jpg,mug,0,A24,A24,1,train
+1714,images/IMG_20260421_195608780.jpg,mug,0,A25,A25,1,train
+1715,images/IMG_20260421_195611951.jpg,mug,0,A25,A25,1,train
+1716,images/IMG_20260421_195616351.jpg,mug,0,A25,A25,1,train
+1717,images/IMG_20260421_195620552.jpg,mug,0,A25,A25,1,train
+1718,images/IMG_20260421_195625420.jpg,mug,0,A25,A25,1,train
+1719,images/IMG_20260421_195629227.jpg,mug,0,A25,A25,1,train
+1720,images/IMG_20260421_195650491.jpg,mug,0,A25,A25,1,train
+1721,images/IMG_20260421_195653294.jpg,mug,0,A25,A25,1,train
+1722,images/IMG_20260421_195735840.jpg,mug,0,A26,A26,1,train
+1723,images/IMG_20260421_195742805.jpg,mug,0,A26,A26,1,train
+1724,images/IMG_20260421_195746974.jpg,mug,0,A26,A26,1,train
+1725,images/IMG_20260421_195750942.jpg,mug,0,A26,A26,1,train
+1726,images/IMG_20260421_195753910.jpg,mug,0,A26,A26,1,train
+1727,images/IMG_20260421_195758482.jpg,mug,0,A26,A26,1,train
+1728,images/IMG_20260421_195802914.jpg,mug,0,A26,A26,1,train
+1729,images/IMG_20260421_195818436.jpg,mug,0,A26,A26,1,train
+1730,images/IMG_20260421_195821204.jpg,mug,0,A26,A26,1,train
+1731,images/IMG_20260421_195852149.jpg,mug,0,A1030,A1030,1,validation
+1732,images/IMG_20260421_195855673.jpg,mug,0,A1031,A1031,1,test
+1733,images/IMG_20260421_195903277.jpg,mug,0,A1032,A1032,1,test
+1734,images/IMG_20260421_195907876.jpg,mug,0,A1033,A1033,1,validation
+1735,images/IMG_5168.JPG,mug,0,A27,A27,1,test
+1736,images/IMG_5174.JPG,mug,0,A28,A28,1,train
+1737,images/IMG_5175.JPG,mug,0,A28,A28,1,train
+1738,images/IMG_5176.JPG,mug,0,A28,A28,1,train
+1739,images/IMG_5177.JPG,mug,0,A28,A28,1,train
+1740,images/IMG_5178.JPG,bowl,3,A29,A29,1,train
+1741,images/IMG_5179.JPG,bowl,3,A29,A29,1,train
+1742,images/IMG_5180.JPG,bowl,3,A29,A29,1,train
+1743,images/IMG_5181.JPG,pot,4,A30,A30,1,train
+1744,images/IMG_5182.JPG,pot,4,A30,A30,1,train
+1745,images/IMG_5183.JPG,pot,4,A30,A30,1,train
+1746,images/IMG_5184.JPG,pot,4,A30,A30,1,train
+1747,images/IMG_5185.JPG,pot,4,A30,A30,1,train
+1748,images/IMG_5186.JPG,pot,4,A30,A30,1,train
+1749,images/IMG_5187.JPG,bowl,3,A31,A31,1,train
+1750,images/IMG_5188.JPG,bowl,3,A31,A31,1,train
+1751,images/IMG_5189.JPG,bowl,3,A31,A31,1,train
+1752,images/IMG_5190.JPG,bowl,3,A31,A31,1,train
+1753,images/IMG_5191.JPG,bowl,3,A31,A31,1,train
+1754,images/IMG_5192.JPG,bowl,3,A31,A31,1,train
+1755,images/IMG_5212.JPG,flat_plate,1,A1034,A1034,1,validation
+1756,images/IMG_5213.JPG,flat_plate,1,A1035,A1035,1,train
+1757,images/IMG_5214.JPG,flat_plate,1,A1036,A1036,1,train
+1758,images/IMG_5215.JPG,flat_plate,1,A1037,A1037,1,test
+1759,images/IMG_5217.JPG,pot,4,A40,A40,1,validation
+1760,images/IMG_5218.JPG,pot,4,A40,A40,1,validation
+1761,images/IMG_5219.JPG,pot,4,A40,A40,1,validation
+1762,images/IMG_5220.JPG,pot,4,A40,A40,1,validation
+1763,images/IMG_5221.JPG,pot,4,A40,A40,1,validation
+1764,images/IMG_5222.JPG,pot,4,A41,A41,1,train
+1765,images/IMG_5223.JPG,pot,4,A41,A41,1,train
+1766,images/IMG_5224.JPG,pot,4,A41,A41,1,train
+1767,images/IMG_5225.JPG,pot,4,A41,A41,1,train
+1768,images/IMG_5226.JPG,pot,4,A41,A41,1,train
+1769,images/IMG_5227.JPG,pot,4,A41,A41,1,train
+1770,images/IMG_5228.JPG,pot,4,A1050,A1050,1,validation
+1771,images/IMG_5229.JPG,pot,4,A1051,A1051,1,train
+1772,images/IMG_5230.JPG,pot,4,A42,A42,1,train
+1773,images/IMG_5231.JPG,pot,4,A42,A42,1,train
+1774,images/IMG_5232.JPG,pot,4,A42,A42,1,train
+1775,images/IMG_5233.JPG,pot,4,A42,A42,1,train
+1776,images/IMG_5234.JPG,pot,4,A42,A42,1,train
+1777,images/IMG_5235.JPG,pot,4,A42,A42,1,train
+1778,images/IMG_5236.JPG,pot,4,A42,A42,1,train
+1779,images/IMG_5237.JPG,pot,4,A42,A42,1,train
+1780,images/IMG_5238.JPG,wine_glass,5,A43,A43,1,validation
+1781,images/IMG_5239.JPG,wine_glass,5,A43,A43,1,validation
+1782,images/IMG_5240.JPG,wine_glass,5,A43,A43,1,validation
+1783,images/IMG_5241.JPG,wine_glass,5,A43,A43,1,validation
+1784,images/IMG_5242.JPG,wine_glass,5,A1052,A1052,1,test
+1785,images/IMG_5243.JPG,wine_glass,5,A1053,A1053,1,test
+1786,images/IMG_5244.JPG,wine_glass,5,A1054,A1054,1,validation
+1787,images/IMG_5245.JPG,wine_glass,5,A1055,A1055,1,test
+1788,images/IMG_5246.JPG,wine_glass,5,A1056,A1056,1,train
+1789,images/IMG_5247.JPG,wine_glass,5,A1057,A1057,1,test
+1790,images/IMG_5248.JPG,wine_glass,5,A1058,A1058,1,train
+1791,images/IMG_5249.JPG,wine_glass,5,A45,A45,1,train
+1792,images/IMG_5250.JPG,wine_glass,5,A45,A45,1,train
+1793,images/IMG_5251.JPG,wine_glass,5,A45,A45,1,train
+1794,images/IMG_5252.JPG,wine_glass,5,A45,A45,1,train
+1795,images/IMG_5253.JPG,wine_glass,5,A1060,A1060,1,train
+1796,images/IMG_5254.JPG,wine_glass,5,A1061,A1061,1,train
+1797,images/IMG_5255.JPG,wine_glass,5,A1063,A1063,1,test
+1798,images/IMG_5256.JPG,wine_glass,5,A1064,A1064,1,train
+1799,images/IMG_5257.JPG,wine_glass,5,A1065,A1065,1,validation
+1800,images/IMG_5258.JPG,wine_glass,5,A1066,A1066,1,test
+1801,images/IMG_5259.JPG,wine_glass,5,A1067,A1067,1,test
+1802,images/IMG_5260.JPG,wine_glass,5,A47,A47,1,train
+1803,images/IMG_5261.JPG,wine_glass,5,A47,A47,1,train
+1804,images/IMG_5262.JPG,wine_glass,5,A47,A47,1,train
+1805,images/IMG_5263.JPG,wine_glass,5,A47,A47,1,train
+1806,images/IMG_5264.JPG,wine_glass,5,A47,A47,1,train
+1807,images/IMG_5265.JPG,wine_glass,5,A47,A47,1,train
+1808,images/IMG_5266.JPG,wine_glass,5,A47,A47,1,train
+1809,images/IMG_5267.JPG,wine_glass,5,A47,A47,1,train
+1810,images/IMG_5268.JPG,wine_glass,5,A47,A47,1,train
+1811,images/IMG_5269.JPG,wine_glass,5,A47,A47,1,train
+1812,images/IMG_5270.JPG,wine_glass,5,A1070,A1070,1,test
+1813,images/IMG_5271.JPG,wine_glass,5,A1071,A1071,1,validation
+1814,images/IMG_5272.JPG,saucepan,6,A50,A50,1,train
+1815,images/IMG_5273.JPG,saucepan,6,A50,A50,1,train
+1816,images/IMG_5274.JPG,saucepan,6,A50,A50,1,train
+1817,images/IMG_5275.JPG,saucepan,6,A50,A50,1,train
+1818,images/IMG_5276.JPG,saucepan,6,A50,A50,1,train
+1819,images/IMG_5277.JPG,saucepan,6,A50,A50,1,train
+1820,images/IMG_5278.JPG,saucepan,6,A50,A50,1,train
+1821,images/IMG_5279.JPG,saucepan,6,A51,A51,1,validation
+1822,images/IMG_5280.JPG,saucepan,6,A51,A51,1,validation
+1823,images/IMG_5281.JPG,saucepan,6,A51,A51,1,validation
+1824,images/IMG_5282.JPG,saucepan,6,A51,A51,1,validation
+1825,images/IMG_5283.JPG,saucepan,6,A51,A51,1,validation
+1826,images/IMG_5284.JPG,saucepan,6,A51,A51,1,validation
+1827,images/IMG_5285.JPG,saucepan,6,A1072,A1072,1,validation
+1828,images/IMG_5286.JPG,saucepan,6,A1073,A1073,1,test
+1829,images/IMG_5287.JPG,saucepan,6,A1074,A1074,1,train
+1830,images/IMG_5288.JPG,saucepan,6,A1075,A1075,1,validation
+1831,images/IMG_5289.JPG,pot,4,A52,A52,1,train
+1832,images/IMG_5290.JPG,pot,4,A52,A52,1,train
+1833,images/IMG_5291.JPG,pot,4,A52,A52,1,train
+1834,images/IMG_5292.JPG,pot,4,A52,A52,1,train
+1835,images/IMG_5293.JPG,pot,4,A52,A52,1,train
+1836,images/IMG_5294.JPG,pot,4,A52,A52,1,train
+1837,images/IMG_5295.JPG,mug,0,A53,A53,1,train
+1838,images/IMG_5296.JPG,mug,0,A53,A53,1,train
+1839,images/IMG_5297.JPG,mug,0,A53,A53,1,train
+1840,images/IMG_5298.JPG,mug,0,A53,A53,1,train
+1841,images/IMG_5299.JPG,mug,0,A53,A53,1,train
+1842,images/IMG_5300.JPG,mug,0,A53,A53,1,train
+1843,images/IMG_5301.JPG,mug,0,A53,A53,1,train
+1844,images/IMG_5302.JPG,mug,0,A1078,A1078,1,train
+1845,images/IMG_5303.JPG,mug,0,A1079,A1079,1,validation
+1846,images/IMG_5304.JPG,mug,0,A1080,A1080,1,test
+1847,images/IMG_5305.JPG,mug,0,A1081,A1081,1,validation
+1848,images/IMG_5306.JPG,mug,0,A1082,A1082,1,train
+1849,images/IMG_5307.JPG,soup_plate,2,A70,A70,1,train
+1850,images/IMG_5308.JPG,soup_plate,2,A70,A70,1,train
+1851,images/IMG_5309.JPG,soup_plate,2,A70,A70,1,train
+1852,images/IMG_5310.JPG,soup_plate,2,A70,A70,1,train
+1853,images/IMG_5311.JPG,soup_plate,2,A70,A70,1,train
+1854,images/IMG_5312.JPG,soup_plate,2,A70,A70,1,train
+1855,images/IMG_5313.JPG,soup_plate,2,A70,A70,1,train
+1856,images/IMG_5314.JPG,soup_plate,2,A70,A70,1,train
+1857,images/IMG_5315.JPG,soup_plate,2,A70,A70,1,train
+1858,images/IMG_5316.JPG,soup_plate,2,A1085,A1085,1,validation
+1859,images/IMG_5317.JPG,soup_plate,2,A1086,A1086,1,train
+1860,images/IMG_5318.JPG,soup_plate,2,A1087,A1087,1,test
+1861,images/IMG_5319.JPG,soup_plate,2,A1088,A1088,1,train
+1862,images/IMG_5320.JPG,soup_plate,2,A71,A71,1,train
+1863,images/IMG_5321.JPG,soup_plate,2,A71,A71,1,train
+1864,images/IMG_5322.JPG,soup_plate,2,A71,A71,1,train
+1865,images/IMG_5323.JPG,soup_plate,2,A71,A71,1,train
+1866,images/IMG_5324.JPG,soup_plate,2,A71,A71,1,train
+1867,images/IMG_5325.JPG,soup_plate,2,A71,A71,1,train
+1868,images/IMG_5326.JPG,soup_plate,2,A71,A71,1,train
+1869,images/IMG_5327.JPG,soup_plate,2,A71,A71,1,train
+1870,images/IMG_5328.JPG,soup_plate,2,A71,A71,1,train
+1871,images/IMG_5329.JPG,soup_plate,2,A1088,A1088,1,train
+1872,images/IMG_5330.JPG,soup_plate,2,A1089,A1089,1,validation
+1873,images/IMG_5331.JPG,soup_plate,2,A1090,A1090,1,test
+1874,images/IMG_5332.JPG,soup_plate,2,A1091,A1091,1,train
+1875,images/IMG_5333.JPG,flat_plate,1,A72,A72,1,train
+1876,images/IMG_5334.JPG,flat_plate,1,A72,A72,1,train
+1877,images/IMG_5335.JPG,flat_plate,1,A72,A72,1,train
+1878,images/IMG_5336.JPG,flat_plate,1,A72,A72,1,train
+1879,images/IMG_5337.JPG,flat_plate,1,A72,A72,1,train
+1880,images/IMG_5338.JPG,flat_plate,1,A72,A72,1,train
+1881,images/IMG_5339.JPG,flat_plate,1,A72,A72,1,train
+1882,images/IMG_5340.JPG,flat_plate,1,A72,A72,1,train
+1883,images/IMG_5341.JPG,flat_plate,1,A72,A72,1,train
+1884,images/IMG_5342.JPG,flat_plate,1,A72,A72,1,train
+1885,images/IMG_5343.JPG,flat_plate,1,A1092,A1092,1,validation
+1886,images/IMG_5344.JPG,flat_plate,1,A1093,A1093,1,validation
+1887,images/IMG_5345.JPG,flat_plate,1,A1094,A1094,1,test
+1888,images/IMG_5346.JPG,flat_plate,1,A1095,A1095,1,test
+1889,images/IMG_5347.JPG,flat_plate,1,A73,A73,1,test
+1890,images/IMG_5348.JPG,flat_plate,1,A73,A73,1,test
+1891,images/IMG_5349.JPG,flat_plate,1,A73,A73,1,test
+1892,images/IMG_5350.JPG,flat_plate,1,A73,A73,1,test
+1893,images/IMG_5351.JPG,flat_plate,1,A74,A74,1,train
+1894,images/IMG_5352.JPG,flat_plate,1,A74,A74,1,train
+1895,images/IMG_5353.JPG,flat_plate,1,A74,A74,1,train
+1896,images/IMG_5354.JPG,flat_plate,1,A74,A74,1,train
+1897,images/IMG_5355.JPG,flat_plate,1,A74,A74,1,train
+1898,images/IMG_5356.JPG,flat_plate,1,A75,A75,1,train
+1899,images/IMG_5357.JPG,flat_plate,1,A75,A75,1,train
+1900,images/IMG_5358.JPG,flat_plate,1,A75,A75,1,train
+1901,images/IMG_5359.JPG,flat_plate,1,A75,A75,1,train
+1902,images/IMG_5360.JPG,flat_plate,1,A75,A75,1,train
+1903,images/IMG_5361.JPG,flat_plate,1,A75,A75,1,train
+1904,images/IMG_5362.JPG,flat_plate,1,A75,A75,1,train
+1905,images/IMG_5363.JPG,flat_plate,1,A75,A75,1,train
+1906,images/IMG_5364.JPG,flat_plate,1,A75,A75,1,train
+1907,images/IMG_5365.JPG,flat_plate,1,A76,A76,1,train
+1908,images/IMG_5366.JPG,flat_plate,1,A76,A76,1,train
+1909,images/IMG_5367.JPG,flat_plate,1,A76,A76,1,train
+1910,images/IMG_5368.JPG,flat_plate,1,A76,A76,1,train
+1911,images/IMG_5369.JPG,flat_plate,1,A76,A76,1,train
+1912,images/IMG_5370.JPG,flat_plate,1,A76,A76,1,train
+1913,images/IMG_5371.JPG,flat_plate,1,A77,A77,1,train
+1914,images/IMG_5372.JPG,flat_plate,1,A77,A77,1,train
+1915,images/IMG_5373.JPG,flat_plate,1,A77,A77,1,train
+1916,images/IMG_5374.JPG,flat_plate,1,A77,A77,1,train
+1917,images/IMG_5375.JPG,flat_plate,1,A77,A77,1,train
+1918,images/IMG_5376.JPG,flat_plate,1,A1100,A1100,1,train
+1919,images/IMG_5377.JPG,flat_plate,1,A1101,A1101,1,train
+1920,images/IMG_5378.JPG,flat_plate,1,A1102,A1102,1,train

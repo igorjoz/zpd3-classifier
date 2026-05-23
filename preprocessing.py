@@ -1,301 +1,318 @@
+import argparse
+import csv
 import json
-from collections import Counter
 import random
-import torch
-import torchvision.transforms as transforms
-import cv2
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
+import re
+from collections import Counter, defaultdict
+from pathlib import Path
 
-TRAIN_PART = 0.70
-VALIDATION_PART = 0.15
-TEST_PART = 0.15
-CANAL_NORM_AVG = [0.485, 0.456, 0.406]
-CANAL_NORM_STDS = [0.229, 0.224, 0.225]
 
-classes_dict = {
-    '["mug"]': 0,
-    '["flat_plate"]': 1,
-    '["soup_plate"]': 2,
-    '["bowl"]': 3,
-    '["pot"]': 4,
-    '["wine_glass"]': 5,
-    '["saucepan"]': 6,
-}
+DEFAULT_INPUT = Path("project-3-at-2026-04-25-19-49-76eb6179-mini-matched.json")
+DEFAULT_OUTPUT_DIR = Path("data_splits")
+DEFAULT_SEED = 42
+CLASSES = [
+    "mug",
+    "flat_plate",
+    "soup_plate",
+    "bowl",
+    "pot",
+    "wine_glass",
+    "saucepan",
+]
+LABEL_TO_INDEX = {label: index for index, label in enumerate(CLASSES)}
+SPLIT_RATIOS = {"train": 0.70, "validation": 0.15, "test": 0.15}
+OBJECT_ID_PATTERN = re.compile(r"[A-Za-z]+\d+")
 
-def plot_class_distribution(train_set, validation_set, test_set):
-    plt.figure(figsize=(10, 5))
-    plt.subplot(1, 3, 1)
-    plt.bar(classes_dict.keys(), train_set.count([img for img in train_set if img[1] in classes_dict.keys()]))
-    plt.title("Class Distribution in Train Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
 
-    plt.subplot(1, 3, 2)
-    plt.bar(classes_dict.keys(), validation_set.count([img for img in validation_set if img[1] in classes_dict.keys()]))
-    plt.title("Class Distribution in Validation Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
+class UnionFind:
+    def __init__(self):
+        self.parent = {}
 
-    plt.subplot(1, 3, 3)
-    plt.bar(classes_dict.keys(), test_set.count([img for img in test_set if img[1] in classes_dict.keys()]))
-    plt.title("Class Distribution in Test Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
+    def find(self, value):
+        if value not in self.parent:
+            self.parent[value] = value
+        if self.parent[value] != value:
+            self.parent[value] = self.find(self.parent[value])
+        return self.parent[value]
 
-    plt.tight_layout()
-    plt.show()
-    plt.savefig("class_distribution.png")
+    def union(self, left, right):
+        left_root = self.find(left)
+        right_root = self.find(right)
+        if left_root != right_root:
+            self.parent[right_root] = left_root
 
-def plot_annotator_distribution(train_set_count, validation_set_count, test_set_count):
-    
-    plt.figure(figsize=(10, 5))
-    plt.subplot(1, 3, 1)
-    plt.bar(train_set_count.keys(), train_set_count.values())
-    plt.title("Annotator Distribution in Train Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
 
-    plt.subplot(1, 3, 2)
-    plt.bar(validation_set_count.keys(), validation_set_count.values())
-    plt.title("Annotator Distribution in Validation Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
+def majority_vote(values):
+    counts = Counter(value for value in values if value)
+    if not counts:
+        return None, {}, True
+    largest = max(counts.values())
+    winners = sorted(label for label, count in counts.items() if count == largest)
+    return winners[0], dict(sorted(counts.items())), len(winners) > 1
 
-    plt.subplot(1, 3, 3)
-    plt.bar(test_set_count.keys(), test_set_count.values())
-    plt.title("Annotator Distribution in Test Set")
-    plt.xlabel("Annotator")
-    plt.ylabel("Count")
 
-    plt.tight_layout()
-    plt.show()
-    plt.savefig("annotator_distribution.png")
+def extract_object_ids(rows):
+    object_ids = set()
+    for row in rows:
+        value = str(row.get("object_id") or "")
+        object_ids.update(OBJECT_ID_PATTERN.findall(value))
+    return sorted(object_ids)
 
-def extract_annotation(result_list):
-    extracted = {}
-    for r in result_list:
-        from_name = r.get("from_name")
-        val = r.get("value", {})
-        
-        if "choices" in val:
-            extracted[from_name] = val["choices"]
-        elif "text" in val:
-            extracted[from_name] = val["text"]
-    return extracted
 
-def is_unclassifiable(annotation_dict):
-    status = annotation_dict.get("image_status", [])
-    return "multiple_different_classes" in status or "unreadable" in status
+def aggregate_annotations(rows):
+    grouped_rows = defaultdict(list)
+    for row in rows:
+        grouped_rows[int(row["id"])].append(row)
 
-def process_annotations(json_file_path):
-    with open(json_file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    accepted = []
+    rejected = []
+    for task_id in sorted(grouped_rows):
+        task_rows = grouped_rows[task_id]
+        images = {str(row["image"]) for row in task_rows}
+        if len(images) != 1:
+            raise ValueError(f"Task {task_id} references more than one local image.")
 
-    accepted_images = []
-    rejected_images = []
+        status, status_distribution, status_tie = majority_vote(
+            row.get("image_status") for row in task_rows
+        )
+        if status_tie:
+            rejected.append(
+                {
+                    "task_id": task_id,
+                    "image": next(iter(images)),
+                    "reason": "status_tie",
+                    "status_distribution": status_distribution,
+                }
+            )
+            continue
+        if status != "classifiable":
+            rejected.append(
+                {
+                    "task_id": task_id,
+                    "image": next(iter(images)),
+                    "reason": status or "missing_status",
+                    "status_distribution": status_distribution,
+                }
+            )
+            continue
 
-    for task in data:
-        image_url = task.get("data", {}).get("image")
-        annotations_data = task.get("annotations", [])
-            
-        parsed_annotations = [extract_annotation(ann.get("result", [])) for ann in annotations_data]
-        num_people = len(parsed_annotations)
-        
-        if num_people == 1:
-            ann = parsed_annotations[0]
-            if is_unclassifiable(ann):
-                rejected_images.append(image_url)
-            else:
-                id = ''
-                if 'object_id' in ann:
-                    id = ann['object_id']
-                accepted_images.append({"image": image_url, "final_annotation": ann, "num_annotators": num_people, "id": id})
-                
+        eligible_labels = [
+            row.get("dish_class")
+            for row in task_rows
+            if row.get("image_status") == "classifiable"
+            and row.get("dish_class") in LABEL_TO_INDEX
+        ]
+        label, label_distribution, label_tie = majority_vote(eligible_labels)
+        if label is None or label_tie:
+            rejected.append(
+                {
+                    "task_id": task_id,
+                    "image": next(iter(images)),
+                    "reason": "class_missing_or_tie",
+                    "status_distribution": status_distribution,
+                    "class_distribution": label_distribution,
+                }
+            )
+            continue
+
+        accepted.append(
+            {
+                "task_id": task_id,
+                "image": next(iter(images)),
+                "label": label,
+                "label_index": LABEL_TO_INDEX[label],
+                "object_ids": extract_object_ids(task_rows),
+                "annotator_count": len(task_rows),
+                "status_vote_distribution": status_distribution,
+                "class_vote_distribution": label_distribution,
+            }
+        )
+    return accepted, rejected
+
+
+def add_leakage_groups(samples):
+    union_find = UnionFind()
+    for sample in samples:
+        object_ids = sample["object_ids"]
+        if not object_ids:
+            continue
+        for object_id in object_ids[1:]:
+            union_find.union(object_ids[0], object_id)
+
+    for sample in samples:
+        if sample["object_ids"]:
+            sample["leakage_group"] = union_find.find(sample["object_ids"][0])
         else:
-            statuses = [a['image_status'] for a in parsed_annotations]
-            if statuses.count(['unreadable']) + statuses.count(['multiple_different_classes']) > 1:
-                rejected_images.append(image_url)
-            else:
-                counter_anns = [json.dumps(a['dish_class']) if 'dish_class' in a else '' for a in parsed_annotations]
-                counter = Counter(counter_anns)
-                if len(counter) == num_people:
-                    rejected_images.append(image_url)
-                else:
-                    id = ''
-                    for parsed_ann in parsed_annotations:
-                        if 'object_id' in parsed_ann:
-                            id = parsed_ann['object_id']
-                            break
-                    accepted_images.append({"image": image_url, "final_annotation": counter.most_common(1)[0][0], "num_annotators": num_people, "id":id})
+            sample["leakage_group"] = f"task_{sample['task_id']}"
 
-    return accepted_images, rejected_images
-    
+
+def split_score(split_counts, split_totals, class_totals, total_samples):
+    score = 0.0
+    for split, ratio in SPLIT_RATIOS.items():
+        target_total = total_samples * ratio
+        score += 0.3 * ((split_totals[split] - target_total) ** 2) / total_samples
+        for label in CLASSES:
+            target = class_totals[label] * ratio
+            score += ((split_counts[split][label] - target) ** 2) / max(
+                class_totals[label], 1
+            )
+    return score
+
+
+def assign_splits(samples, seed, attempts=300):
+    grouped = defaultdict(list)
+    for sample in samples:
+        grouped[sample["leakage_group"]].append(sample)
+    groups = list(grouped.items())
+    class_totals = Counter(sample["label"] for sample in samples)
+    total_samples = len(samples)
+    best_assignment = None
+    best_score = float("inf")
+
+    for attempt in range(attempts):
+        rng = random.Random(seed + attempt)
+        candidate_groups = list(groups)
+        rng.shuffle(candidate_groups)
+        candidate_groups.sort(key=lambda item: len(item[1]), reverse=True)
+        split_counts = {split: Counter() for split in SPLIT_RATIOS}
+        split_totals = Counter()
+        assignment = {}
+
+        for group_id, group_samples in candidate_groups:
+            group_counts = Counter(sample["label"] for sample in group_samples)
+            group_size = len(group_samples)
+            candidates = []
+            split_order = list(SPLIT_RATIOS)
+            rng.shuffle(split_order)
+            for split in split_order:
+                split_counts[split].update(group_counts)
+                split_totals[split] += group_size
+                candidate_score = split_score(
+                    split_counts, split_totals, class_totals, total_samples
+                )
+                split_counts[split].subtract(group_counts)
+                split_totals[split] -= group_size
+                candidates.append((candidate_score, split))
+
+            _, chosen_split = min(candidates, key=lambda item: item[0])
+            assignment[group_id] = chosen_split
+            split_counts[chosen_split].update(group_counts)
+            split_totals[chosen_split] += group_size
+
+        candidate_score = split_score(
+            split_counts, split_totals, class_totals, total_samples
+        )
+        if candidate_score < best_score:
+            best_score = candidate_score
+            best_assignment = assignment
+
+    for sample in samples:
+        sample["split"] = best_assignment[sample["leakage_group"]]
+
+
+def create_summary(samples, rejected, input_rows, seed):
+    summary = {
+        "seed": seed,
+        "split_ratios_requested": SPLIT_RATIOS,
+        "annotation_rows_input": len(input_rows),
+        "accepted_unique_images": len(samples),
+        "rejected_unique_images": len(rejected),
+        "classes": CLASSES,
+        "splits": {},
+        "rejected_reasons": dict(Counter(item["reason"] for item in rejected)),
+    }
+    groups_by_split = {}
+    for split in SPLIT_RATIOS:
+        subset = [sample for sample in samples if sample["split"] == split]
+        groups_by_split[split] = {sample["leakage_group"] for sample in subset}
+        summary["splits"][split] = {
+            "images": len(subset),
+            "ratio": len(subset) / len(samples),
+            "leakage_groups": len(groups_by_split[split]),
+            "class_counts": dict(
+                sorted(Counter(sample["label"] for sample in subset).items())
+            ),
+        }
+
+    overlaps = {}
+    split_names = list(SPLIT_RATIOS)
+    for index, left in enumerate(split_names):
+        for right in split_names[index + 1 :]:
+            overlaps[f"{left}_{right}"] = sorted(
+                groups_by_split[left] & groups_by_split[right]
+            )
+    summary["leakage_group_overlaps"] = overlaps
+    summary["leakage_check_passed"] = not any(overlaps.values())
+    return summary
+
+
+def write_json(path, value):
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def write_csv(path, samples):
+    fields = [
+        "task_id",
+        "image",
+        "label",
+        "label_index",
+        "object_ids",
+        "leakage_group",
+        "annotator_count",
+        "split",
+    ]
+    with path.open("w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fields)
+        writer.writeheader()
+        for sample in samples:
+            row = {field: sample[field] for field in fields}
+            row["object_ids"] = ";".join(row["object_ids"])
+            writer.writerow(row)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Aggregate annotation votes and create leakage-safe dataset splits."
+    )
+    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
+    args = parser.parse_args()
+
+    annotation_rows = json.loads(args.input.read_text(encoding="utf-8"))
+    if not isinstance(annotation_rows, list):
+        raise ValueError("The annotation input JSON must contain a list.")
+
+    samples, rejected = aggregate_annotations(annotation_rows)
+    add_leakage_groups(samples)
+    assign_splits(samples, args.seed)
+    summary = create_summary(samples, rejected, annotation_rows, args.seed)
+    if not summary["leakage_check_passed"]:
+        raise RuntimeError("Detected an object group shared by more than one split.")
+
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    write_json(args.output_dir / "dataset_clean.json", samples)
+    write_json(args.output_dir / "rejected_images.json", rejected)
+    write_json(args.output_dir / "split_summary.json", summary)
+    write_csv(args.output_dir / "dataset_clean.csv", samples)
+    for split in SPLIT_RATIOS:
+        subset = [sample for sample in samples if sample["split"] == split]
+        write_json(args.output_dir / f"{split}.json", subset)
+
+    print(f"Accepted images: {len(samples)}")
+    print(f"Rejected images: {len(rejected)}")
+    for split in SPLIT_RATIOS:
+        details = summary["splits"][split]
+        print(
+            f"{split}: {details['images']} images "
+            f"({details['ratio']:.1%}), {details['class_counts']}"
+        )
+    print(f"Leakage check passed: {summary['leakage_check_passed']}")
+    print(f"Wrote processed data to {args.output_dir}")
+
 
 if __name__ == "__main__":
-    file_name = "project-3-at-2026-04-26-12-35-909a11c3.json"
-    
-    # Przetwarzanie zdjęć ze względu na przydzielone im adnotacje; ze zbioru usuwane są te oznaczone jako nieklasyfikowalne i takie, w których nie ma większości głosów na daną klasę
-    accepted, rejected = process_annotations(file_name)
-    
-    print(f"Zaakceptowane zdjęcia: {len(accepted)}")
-    print(f"Odrzucone zdjęcia: {len(rejected)}")
-
-    #Wykres liczby zaakceptowanych i odrzuconych zdjęć
-    plt.bar(['Accepted', 'Rejected'], [len(accepted), len(rejected)], color=['green', 'red'])
-    plt.title("Count of Accepted and Rejected Images")
-    plt.savefig("accepted_rejected_count.png")
-
-    image_set = {
-        "m": [],
-        "a": [],
-        "i": [],
-        "w": [],
-        "no_id": []
-    }
-    annotation_set = {
-        "m": [],
-        "a": [],
-        "i": [],
-        "w": [],
-        "no_id": []
-    }
-    
-    for image in accepted:
-        #Zdjęcia są przekształcane do rozmiaru 224x224 (standardyzacja)
-        target_size = (224, 224)
-        image_cv2 = cv2.imread(image["image"])
-        resized_image = cv2.resize(image_cv2, target_size)
-        
-        transform = transforms.Compose([transforms.ToTensor()])
-        input_tensor = transform(resized_image)
-
-        #Podział zdjęć ze względu na adnotatorów, którzy je oznaczyli, dla dalszego zachowania proporcji adnotatorów w zbiorach treningowym, walidacyjnym i testowym; osobne zbiory na dane oznaczane wspólnie i bez id
-        if image["num_annotators"] != 1:
-            image_set["w"].append([input_tensor, image["final_annotation"], image["id"]])
-        else:
-            who_annotated = image["num_annotators"][0] if image["num_annotators"] != '' else "no_id"
-            image_set[who_annotated].append([input_tensor, image["final_annotation"], image["id"]])
-
-    #Augmentacja danych - tworzenie nowych, zaszumionych obrazów
-    for key in image_set.keys(): 
-        if key == "no_id" or key == "w":
-            continue
-        for i in range(50):
-            random_index = torch.randint(0, len(image_set[key]), (1,)).item()
-            original_image, original_annotation, original_id = image_set[key][random_index]
-            noise = torch.randn_like(original_image)*0.01
-            augmented_image = original_image + noise
-            image_set[key].append([augmented_image, original_annotation, original_id])
-
-    #Normalizacja danych do przedziału [-1, 1] - średnie i odchylenia standardowe dla poszczególnych kanałów są widoczne poniżej
-    for key in image_set.keys():
-        for image in image_set[key]:
-            normalize = transforms.Normalize(mean=CANAL_NORM_AVG, std=CANAL_NORM_STDS)
-            transform = transforms.Compose([normalize])
-            image[0] = transform(image[0])
-    
-    #printing zdjęcie, do wyrzucenia potem
-    first_image_tensor = image_set['m'][0][0]
-    first_image_tensor = first_image_tensor.permute(1, 2, 0).numpy()
-    first_image_tensor = (first_image_tensor * 255).astype('uint8')
-    cv2.imwrite(f"first_image.jpg", first_image_tensor)
-
-    train_set, validation_set, test_set = [], [], []
-    train_set_annotations, validation_set_annotations, test_set_annotations = [], [], []
-
-    #Dicts only for plotting annotator distribution later
-    train_set_count = {
-        "m": 0,
-        "a": 0,
-        "i": 0,
-    }
-
-    validation_set_count = {
-        "m": 0,
-        "a": 0,
-        "i": 0,
-    }
-
-    test_set_count = {
-        "m": 0,
-        "a": 0,
-        "i": 0,
-    }
-
-    #Podział zbiorów z zachowaniem:
-    # - proporcji klas
-    # - proporcji adnotatorów
-    # i zapobieganiem wyciekom danych (wszystkie zdjęcia z danym id trafiają do tego samego zbioru)
-    for key in image_set.keys():
-        if key == "no_id":
-            continue
-        for classname in classes_dict.keys():
-            class_count = image_set[key].count([img for img in image_set[key] if img[1] == classname])
-            id_dict = {}
-            for img in image_set[key]:
-                if img[1] == classname:
-                    id = img[2]
-                    if id not in id_dict:
-                        id_dict[id] = 0
-                    id_dict[id] += 1
-            
-            chosen_count = 0
-            while chosen_count < class_count*TRAIN_PART:
-                id = random.choice(list(id_dict.keys()))
-                if id_dict[id] > 0:
-                    for i in range(len(image_set[key])):
-                        if image_set[key][i][2] == id:
-                            train_set.append(image_set[key][i])
-                    chosen_count += id_dict[id]
-                    train_set_count[key] += id_dict[id]
-                    del image_set[key][i]
-                    del id_dict[id]
-
-            chosen_count = 0
-            while chosen_count < class_count*VALIDATION_PART:
-                id = random.choice(list(id_dict.keys()))
-                if id_dict[id] > 0:
-                    for i in range(len(image_set[key])):
-                        if image_set[key][i][2] == id:
-                            validation_set.append(image_set[key][i])
-                    validation_set_count[key] += id_dict[id]
-                    chosen_count += id_dict[id]
-                    del image_set[key][i]
-                    del id_dict[id]
-
-            test_set.extend(image_set[key])
-            test_set_count[key] += len(image_set[key])
-
-    train_set_no_id_with_val, test_set_no_id = train_test_split(image_set["no_id"], test_size=TEST_PART, random_state=42)
-    train_set_no_id, validation_set_no_id = train_test_split(train_set_no_id_with_val, test_size=VALIDATION_PART, random_state=42)
-
-    train_set.extend(train_set_no_id)
-    validation_set.extend(validation_set_no_id)
-    test_set.extend(test_set_no_id)
-
-    #Przemieszanie zbiorów
-    random.shuffle(train_set)
-    random.shuffle(validation_set)
-    random.shuffle(test_set)
-
-    #Przygotowanie wektorów adnotacji dla zdjęć
-    for image in train_set:
-        annotation_vector = torch.zeros(len(classes_dict))
-        annotation_vector[classes_dict[image["final_annotation"]]] = 1
-        train_set_annotations.append(annotation_vector)
-
-    for image in validation_set:
-        annotation_vector = torch.zeros(len(classes_dict))
-        annotation_vector[classes_dict[image["final_annotation"]]] = 1
-        validation_set_annotations.append(annotation_vector)
-
-    for image in test_set:
-        annotation_vector = torch.zeros(len(classes_dict))
-        annotation_vector[classes_dict[image["final_annotation"]]] = 1
-        test_set_annotations.append(annotation_vector)
-    
-    #Wykreśl statystyki
-    plot_class_distribution(train_set, validation_set, test_set)
-    plot_annotator_distribution(train_set_count, validation_set_count, test_set_count)
-    
+    main()

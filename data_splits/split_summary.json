@@ -1,0 +1,76 @@
+{
+  "seed": 42,
+  "split_ratios_requested": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "annotation_rows_input": 2859,
+  "accepted_unique_images": 1821,
+  "rejected_unique_images": 78,
+  "classes": [
+    "mug",
+    "flat_plate",
+    "soup_plate",
+    "bowl",
+    "pot",
+    "wine_glass",
+    "saucepan"
+  ],
+  "splits": {
+    "train": {
+      "images": 1275,
+      "ratio": 0.700164744645799,
+      "leakage_groups": 240,
+      "class_counts": {
+        "bowl": 195,
+        "flat_plate": 194,
+        "mug": 197,
+        "pot": 190,
+        "saucepan": 187,
+        "soup_plate": 145,
+        "wine_glass": 167
+      }
+    },
+    "validation": {
+      "images": 273,
+      "ratio": 0.14991762767710048,
+      "leakage_groups": 122,
+      "class_counts": {
+        "bowl": 42,
+        "flat_plate": 42,
+        "mug": 42,
+        "pot": 40,
+        "saucepan": 40,
+        "soup_plate": 31,
+        "wine_glass": 36
+      }
+    },
+    "test": {
+      "images": 273,
+      "ratio": 0.14991762767710048,
+      "leakage_groups": 123,
+      "class_counts": {
+        "bowl": 42,
+        "flat_plate": 41,
+        "mug": 42,
+        "pot": 41,
+        "saucepan": 40,
+        "soup_plate": 31,
+        "wine_glass": 36
+      }
+    }
+  },
+  "rejected_reasons": {
+    "multiple_different_classes": 41,
+    "status_tie": 7,
+    "class_missing_or_tie": 5,
+    "unreadable": 25
+  },
+  "leakage_group_overlaps": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": []
+  },
+  "leakage_check_passed": true
+}

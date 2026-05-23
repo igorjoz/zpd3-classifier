@@ -1,0 +1,665 @@
+[
+  {
+    "task_id": 92,
+    "image": "images/15-21-23-20260412_162700.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 2
+    }
+  },
+  {
+    "task_id": 332,
+    "image": "images/20_04_2026 16_06_54(1).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 2
+    }
+  },
+  {
+    "task_id": 339,
+    "image": "images/20_04_2026 16_06_54(16).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 2
+    }
+  },
+  {
+    "task_id": 402,
+    "image": "images/20_04_2026 16_06_58(13).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 403,
+    "image": "images/20_04_2026 16_06_58(14).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 410,
+    "image": "images/20_04_2026 16_06_58(8).jpg",
+    "reason": "class_missing_or_tie",
+    "status_distribution": {
+      "classifiable": 2,
+      "unreadable": 1
+    },
+    "class_distribution": {
+      "bowl": 1,
+      "pot": 1
+    }
+  },
+  {
+    "task_id": 411,
+    "image": "images/20_04_2026 16_06_58(9).jpg",
+    "reason": "class_missing_or_tie",
+    "status_distribution": {
+      "classifiable": 2,
+      "unreadable": 1
+    },
+    "class_distribution": {
+      "bowl": 1,
+      "pot": 1
+    }
+  },
+  {
+    "task_id": 416,
+    "image": "images/20_04_2026 16_06_59(11).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 418,
+    "image": "images/20_04_2026 16_06_59(2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 419,
+    "image": "images/20_04_2026 16_06_59(3).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 420,
+    "image": "images/20_04_2026 16_06_59(4).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 421,
+    "image": "images/20_04_2026 16_06_59(5).jpg",
+    "reason": "class_missing_or_tie",
+    "status_distribution": {
+      "classifiable": 2,
+      "unreadable": 1
+    },
+    "class_distribution": {
+      "bowl": 1,
+      "pot": 1
+    }
+  },
+  {
+    "task_id": 424,
+    "image": "images/20_04_2026 16_06_59(8).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 425,
+    "image": "images/20_04_2026 16_06_59(9).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 426,
+    "image": "images/20_04_2026 16_06_59.jpg",
+    "reason": "class_missing_or_tie",
+    "status_distribution": {
+      "classifiable": 2,
+      "unreadable": 1
+    },
+    "class_distribution": {
+      "bowl": 1,
+      "pot": 1
+    }
+  },
+  {
+    "task_id": 429,
+    "image": "images/20_04_2026 16_07_00(10).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 432,
+    "image": "images/20_04_2026 16_07_00(13).jpg",
+    "reason": "status_tie",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 1,
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 481,
+    "image": "images/20_04_2026 16_08_46(7).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 482,
+    "image": "images/20_04_2026 16_08_46(8).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 483,
+    "image": "images/20_04_2026 16_08_46(9).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "classifiable": 1,
+      "multiple_different_classes": 2
+    }
+  },
+  {
+    "task_id": 485,
+    "image": "images/20_04_2026 16_08_47 (2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 486,
+    "image": "images/20_04_2026 16_08_47(1).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 487,
+    "image": "images/20_04_2026 16_08_47(2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 488,
+    "image": "images/20_04_2026 16_08_47(3).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 489,
+    "image": "images/20_04_2026 16_08_47.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 490,
+    "image": "images/20_04_2026 16_08_48(1).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 492,
+    "image": "images/20_04_2026 16_08_48(2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 495,
+    "image": "images/20_04_2026 16_08_49 (2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 499,
+    "image": "images/20_04_2026 16_08_49.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 500,
+    "image": "images/20_04_2026 16_08_50 (2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 3
+    }
+  },
+  {
+    "task_id": 501,
+    "image": "images/20_04_2026 16_08_50(1).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 502,
+    "image": "images/20_04_2026 16_08_50(2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 505,
+    "image": "images/20_04_2026 16_08_50(5).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 508,
+    "image": "images/20_04_2026 16_08_50(8).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 509,
+    "image": "images/20_04_2026 16_08_50.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 514,
+    "image": "images/20_04_2026 16_08_51(12).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 517,
+    "image": "images/20_04_2026 16_08_51(4).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 518,
+    "image": "images/20_04_2026 16_08_51(5).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 519,
+    "image": "images/20_04_2026 16_08_51(6).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 522,
+    "image": "images/20_04_2026 16_08_51(9).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 523,
+    "image": "images/20_04_2026 16_08_51.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 524,
+    "image": "images/20_04_2026 16_08_52 (2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 527,
+    "image": "images/20_04_2026 16_08_52(11).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 531,
+    "image": "images/20_04_2026 16_08_52(5).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 543,
+    "image": "images/20_04_2026 16_08_53(6).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 544,
+    "image": "images/20_04_2026 16_08_53(7).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 546,
+    "image": "images/20_04_2026 16_08_54 (2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 552,
+    "image": "images/20_04_2026 16_08_54.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 605,
+    "image": "images/20_04_2026 16_30_54.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 622,
+    "image": "images/20_04_2026 16_31_09(1).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 849,
+    "image": "images/20_04_2026 16_37_11.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 851,
+    "image": "images/20_04_2026 16_37_13.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 852,
+    "image": "images/20_04_2026 16_37_14.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 868,
+    "image": "images/20_04_2026 16_37_20(2).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 883,
+    "image": "images/20_04_2026 16_38_28.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 887,
+    "image": "images/20_04_2026 16_38_31(1).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 915,
+    "image": "images/20_04_2026 16_38_52.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 917,
+    "image": "images/20_04_2026 16_38_53.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 953,
+    "image": "images/20_04_2026 16_39_20.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 995,
+    "image": "images/20_04_2026 16_40_00.jpg",
+    "reason": "class_missing_or_tie",
+    "status_distribution": {
+      "classifiable": 1
+    },
+    "class_distribution": {}
+  },
+  {
+    "task_id": 1006,
+    "image": "images/20_04_2026 16_40_41.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1012,
+    "image": "images/20_04_2026 16_40_45.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1015,
+    "image": "images/20_04_2026 16_40_48(1).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1016,
+    "image": "images/20_04_2026 16_40_48.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1018,
+    "image": "images/20_04_2026 16_40_50.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1024,
+    "image": "images/20_04_2026 16_40_55.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1025,
+    "image": "images/20_04_2026 16_40_56.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1026,
+    "image": "images/20_04_2026 16_40_57(1).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1027,
+    "image": "images/20_04_2026 16_40_57.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1036,
+    "image": "images/20_04_2026 16_41_04.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1050,
+    "image": "images/20_04_2026 16_41_15(1).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1057,
+    "image": "images/20_04_2026 16_41_20.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1113,
+    "image": "images/20_04_2026 16_42_33.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1164,
+    "image": "images/20_04_2026 16_43_13.jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1178,
+    "image": "images/20_04_2026 19_28_55(1).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 1183,
+    "image": "images/20_04_2026 19_28_56(2).jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  },
+  {
+    "task_id": 1209,
+    "image": "images/20_04_2026 19_29_41(2).jpg",
+    "reason": "unreadable",
+    "status_distribution": {
+      "unreadable": 1
+    }
+  },
+  {
+    "task_id": 1211,
+    "image": "images/20_04_2026 19_29_42.jpg",
+    "reason": "multiple_different_classes",
+    "status_distribution": {
+      "multiple_different_classes": 1
+    }
+  }
+]
