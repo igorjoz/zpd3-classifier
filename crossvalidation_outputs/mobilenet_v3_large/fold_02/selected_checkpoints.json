@@ -1,0 +1,23 @@
+[
+  {
+    "epoch": 11,
+    "path": "MODELS_IMPROVED\\fold_02\\mobilenet_v3_large_epoch_11_val_f1_0.8517.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.8516856202182754,
+    "validation_loss": 0.6811773453989337
+  },
+  {
+    "epoch": 10,
+    "path": "MODELS_IMPROVED\\fold_02\\mobilenet_v3_large_epoch_10_val_f1_0.8406.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.8406115304999047,
+    "validation_loss": 0.6565888781701364
+  },
+  {
+    "epoch": 8,
+    "path": "MODELS_IMPROVED\\fold_02\\mobilenet_v3_large_epoch_08_val_f1_0.8392.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.8392291812627052,
+    "validation_loss": 0.6742884128324447
+  }
+]

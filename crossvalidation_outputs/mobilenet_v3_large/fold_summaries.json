@@ -1,0 +1,37 @@
+[
+  {
+    "fold": 1,
+    "best_epoch": 12,
+    "best_macro_f1": 0.7457877988528461,
+    "best_loss": 1.2003678344911144,
+    "best_checkpoint": "MODELS_IMPROVED\\fold_01\\mobilenet_v3_large_epoch_12_val_f1_0.7458.pt"
+  },
+  {
+    "fold": 2,
+    "best_epoch": 11,
+    "best_macro_f1": 0.8516856202182754,
+    "best_loss": 0.6811773453989337,
+    "best_checkpoint": "MODELS_IMPROVED\\fold_02\\mobilenet_v3_large_epoch_11_val_f1_0.8517.pt"
+  },
+  {
+    "fold": 3,
+    "best_epoch": 10,
+    "best_macro_f1": 0.8587881461953423,
+    "best_loss": 0.49196598145269577,
+    "best_checkpoint": "MODELS_IMPROVED\\fold_03\\mobilenet_v3_large_epoch_10_val_f1_0.8588.pt"
+  },
+  {
+    "fold": 4,
+    "best_epoch": 10,
+    "best_macro_f1": 0.8649892565066157,
+    "best_loss": 0.4046055724705693,
+    "best_checkpoint": "MODELS_IMPROVED\\fold_04\\mobilenet_v3_large_epoch_10_val_f1_0.8650.pt"
+  },
+  {
+    "fold": 5,
+    "best_epoch": 2,
+    "best_macro_f1": 0.781209838417734,
+    "best_loss": 0.6137148980955476,
+    "best_checkpoint": "MODELS_IMPROVED\\fold_05\\mobilenet_v3_large_epoch_02_val_f1_0.7812.pt"
+  }
+]

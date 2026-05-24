@@ -1,0 +1,23 @@
+[
+  {
+    "epoch": 13,
+    "path": "MODELS_IMPROVED\\hyperparams\\mobilenet_v3_large_epoch_13_val_f1_0.7731.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.7730556420808614,
+    "validation_loss": 5.740361674801334
+  },
+  {
+    "epoch": 10,
+    "path": "MODELS_IMPROVED\\hyperparams\\mobilenet_v3_large_epoch_10_val_f1_0.7590.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.7589996181030817,
+    "validation_loss": 5.7181351612775755
+  },
+  {
+    "epoch": 9,
+    "path": "MODELS_IMPROVED\\hyperparams\\mobilenet_v3_large_epoch_09_val_f1_0.7544.pt",
+    "stage": "fine_tune",
+    "validation_macro_f1": 0.7543812620032132,
+    "validation_loss": 6.423589636554648
+  }
+]
